@@ -11,13 +11,6 @@ $my-green: #98BCBD;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 2s ease-in-out;
-    animation-direction: alternate;
-  }
-}
-
 .App-header {
   background-color: $my-green;
   display: flex;
@@ -51,6 +44,29 @@ $my-green: #98BCBD;
   color: #61dafb;
 }
 
+.container {
+  display: inline-block;
+}
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s ease-in-out;
+    animation-direction: alternate;
+  }
+  .typewriter {
+    border-right: .70em solid $my-gray;
+    letter-spacing: .15em;
+    animation:
+      typing 1.5s steps(25, end),
+      blink-caret .75s step-end infinite;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(-5deg);
@@ -58,4 +74,19 @@ $my-green: #98BCBD;
   to {
     transform: rotate(5deg);
   }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: $my-gray; }
+}
+@keyframes blink-caret-green {
+  from, to { border-color: transparent }
+  50% { border-color: $my-green; }
 }

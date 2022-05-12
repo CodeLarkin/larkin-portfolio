@@ -7,29 +7,35 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1>Larkin</h1>
-          <p>Crypto Engineer</p>
+          <div className="container">
+            <h1>&nbsp;Larkin</h1>
+            <p className="typewriter">Web3 Engineer</p>
+          </div>
         </header>
         <div className="App-body">
-          <p>
-            <h2>Interests</h2>
-            Zero-knowledge technology
-            <br/><br/>
-            Ethereum L2s (especially privacy focused)
-            <br/><br/>
-            Innovative Web3 L1s
-            <br/><br/>
-            Empowering the individual through GameFi/P2E
-            <br/><br/>
-          </p>
-          <p>
-            <h2>Languages</h2>
-            Solidity, Python, Rust, Javascript, Typescript, C/C++
-          </p>
-          <p>
-            <h2>Technologies</h2>
-            EVM, Hardhat, React, Ethers JS, Ethers RS, IPFS, Pinata
-          </p>
+          <div>
+            <p>
+              <h2>Passions</h2>
+              I want to be a part of the revolutionary change that decentralized networks and money can bring to the world.
+
+              <h2>Interests</h2>
+              ZK technology
+              <br/><br/>
+              Private-by-default networks
+              <br/><br/>
+              Ethereum L2s
+              <br/><br/>
+              Innovative Web3 L1s
+              <br/><br/>
+              GameFi and P2E
+
+              <h2>Languages</h2>
+              Solidity, Python, Rust, Javascript, Typescript, C, Bash
+
+              <h2>Technologies</h2>
+              EVM, Hardhat, React, Ethers JS, Ethers RS, IPFS, Pinata
+            </p>
+          </div>
         </div>
       </div>
     );
