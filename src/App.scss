@@ -25,7 +25,7 @@ $my-green: #98BCBD;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: $my-gray;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .App-header > * {
@@ -38,8 +38,7 @@ $my-green: #98BCBD;
   flex-direction: column;
   height: 100%;
   align-items: center;
-  justify-content: center;
-  padding: 25px;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: $my-green;
 }
