@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from './images/bridge-four.png';
+import bridgeFour from './images/bridge-four.png';
 import './App.scss';
 
 
@@ -9,7 +9,7 @@ function Home() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={bridgeFour} className="App-logo" alt="Bridge Four" />
           <h1>Larkin</h1>
           <div className="typewriter-container">
             <p className="typewriter">Web3 Engineer</p>

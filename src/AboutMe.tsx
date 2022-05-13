@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from './images/bridge-four.png';
+import bridgeFour from './images/bridge-four.png';
+import chiri from './images/Chiri-Chiri.jpg';
 import './App.scss';
 
 
@@ -9,7 +10,7 @@ function Home() {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={bridgeFour} className="App-logo" alt="Bridge Four" />
           <h1>Larkin</h1>
           <div className="container">
             <p className="typewriter">Web3 Engineer</p>
@@ -93,12 +94,13 @@ function Home() {
               <br/><br/>
             </p>
             <h2>The Pseudonym "Larkin" </h2>
+            <img src={chiri} alt="Chiri-Chiri"/>
             <p>
-              "Larkin" are little flying crustaceans in my favorite fantasy series, "The Stormlight Archive", by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
+              "Larkin" are little flying crustaceans in my favorite fantasy series, <a href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</a>, by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
               <br/><br/>
               I cannot go into further detail about why I chose the name Larkin without risking spoilers, but I encourage you to dive into <a href="https://www.brandonsanderson.com/">Sanderson's Cosmere</a>.
               <br/><br/>
-              The logo at the top of this site is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens lend us.
+              The logo at the top of this site is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens can lend us.
               <br/><br/>
               When I find myself going through a rough time, I find solace in the journeys, trials and triumphs of Kaladin, Dalinar, Shallan and others.
               <br/><br/>
