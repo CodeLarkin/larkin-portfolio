@@ -1,6 +1,19 @@
 $my-gray: #3a3a3a;
 $my-green: #98BCBD;
+$my-pink: #C3A9AF;
+$my-red: #D75587;
+$my-blue: #5FAFAF;
 
+// Global element styles
+a {
+    color: $my-blue;
+}
+a:visited {
+    color: $my-pink;
+}
+
+
+// Top-level styles
 .App {
   text-align: center;
   height: 100%;
@@ -43,6 +56,9 @@ $my-green: #98BCBD;
 .App-link {
   color: #61dafb;
 }
+
+
+// Effects and animations
 
 .container {
   display: inline-block;

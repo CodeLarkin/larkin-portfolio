@@ -1,8 +1,11 @@
 import React from 'react';
-import logo from './bridge-four.png';
+import { Link } from 'react-router-dom';
+
+import logo from './images/bridge-four.png';
 import './App.scss';
 
-function App() {
+
+function Home() {
     return (
       <div className="App">
         <header className="App-header">
@@ -47,7 +50,7 @@ function App() {
               <br/><br/>
 
               <h2>Projects</h2>
-              Fantomon, CultNFTs, Farmgod Dashboard
+              <Link to="/fantomon">Fantomon</Link>, <Link to="/cult">CultNFTs</Link>, <Link to="/farmgod">Farmgod Dashboard</Link>
               <br/><br/>
 
               <h2>Interests</h2>
@@ -77,4 +80,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;
