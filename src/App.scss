@@ -49,8 +49,8 @@ a:visited {
   color: $my-green;
 }
 
-.App-body > ul {
-  padding-left: 0px;
+.App-body > * {
+  width: 90%;
 }
 
 .App-link {
@@ -59,8 +59,8 @@ a:visited {
 
 
 // Effects and animations
-
-.container {
+.typewriter-container {
+  // required in parent to typewrite text to prevent cursor from extending width
   display: inline-block;
 }
 .typewriter {

@@ -10,8 +10,8 @@ function Home() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <div className="container">
-            <h1>Larkin</h1>
+          <h1>Larkin</h1>
+          <div className="typewriter-container">
             <p className="typewriter">Web3 Engineer</p>
           </div>
         </header>
