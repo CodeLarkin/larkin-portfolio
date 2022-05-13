@@ -39,6 +39,10 @@ function Home() {
               <br/><br/>
             </p>
 
+            <h2></h2>
+            <p>
+            </p>
+
             <h2>About Me</h2>
             <p>
               I am an engineer with 6 years of experience. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe made me truly appreciate the global nature of this space and how it can bring people together.
@@ -87,6 +91,22 @@ function Home() {
             <p>
               EVM, Hardhat, React, Ethers JS, Ethers RS, IPFS, Pinata
               <br/><br/>
+            </p>
+            <h2>The Pseudonym "Larkin" </h2>
+            <p>
+              "Larkin" are little flying crustaceans in my favorite fantasy series, "The Stormlight Archive", by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
+              <br/><br/>
+              I cannot go into further detail about why I chose the name Larkin without risking spoilers, but I encourage you to dive into <a href="https://www.brandonsanderson.com/">Sanderson's Cosmere</a>.
+              <br/><br/>
+              The logo at the top of this site is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens lend us.
+              <br/><br/>
+              When I find myself going through a rough time, I find solace in the journeys, trials and triumphs of Kaladin, Dalinar, Shallan and others.
+              <br/><br/>
+              Life before death.
+              <br/>
+              Strength before weakness.
+              <br/>
+              Journey before destination.
             </p>
           </div>
         </div>
