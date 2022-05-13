@@ -12,7 +12,8 @@ code {
     monospace;
 }
 
-/*html, body, #app, #app>div */
-html, body, body>div {
-  height: 100%
-}
+/* To get the react app to always consume full height.
+ * From: https://stackoverflow.com/a/40240359
+ */
+[data-reactroot]
+        {height: 100% !important; }
