@@ -1,3 +1,5 @@
+$max-mobile-width: 600px;
+
 $my-gray: #3a3a3a;
 $my-green: #98BCBD;
 $my-pink: #C3A9AF;
@@ -104,6 +106,25 @@ a {
     width: auto;
     height: 1430px;
 }
+@media only screen and (max-width: $max-mobile-width) {
+  .imagePreview {
+      max-width: 200px;
+      height:auto;
+  }
+  .galleryImage {
+      max-width: 400px;
+      height:auto;
+  }
+  .galleryImageLong {
+      max-width: 400px;
+      height:auto;
+  }
+  .galleryImageXLong {
+      max-width: 400px;
+      height:auto;
+  }
+}
+
 
 
 ////////////////////////////////////////////////////////////////////////////////
