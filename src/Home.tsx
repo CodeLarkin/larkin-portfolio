@@ -27,6 +27,7 @@ function Home() {
 
             <h2>Projects</h2>
             <Link to="/fantomon">Fantomon</Link>, <Link to="/cult">CultNFTs</Link>, <Link to="/farmgod">Farmgod Dashboard</Link>
+              <br/><br/>
 
             <Link to="/about"><h2>Learn more about me</h2></Link>
           </div>

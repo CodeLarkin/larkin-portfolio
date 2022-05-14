@@ -3,20 +3,36 @@ $my-green: #98BCBD;
 $my-pink: #C3A9AF;
 $my-red: #D75587;
 $my-blue: #5FAFAF;
+$my-orange: #FFAF87;
 
-// Global element styles
+////////////////////////////////////////////////////////////////////////////////
+// Global element styles/defaults
+////////////////////////////////////////////////////////////////////////////////
 a {
     color: $my-blue;
 }
-a:visited {
-    color: $my-pink;
-}
+//a:visited {
+//    color: $my-pink;
+//}
 
 
+////////////////////////////////////////////////////////////////////////////////
 // Top-level styles
-.App {
+////////////////////////////////////////////////////////////////////////////////
+
+// Router Top/Layout
+.Layout {
+  background-color: $my-gray;
   text-align: center;
   height: 100%;
+  color: $my-green;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  // App to top, footer to bottom
+}
+// App (router page)
+.App {
+  text-align: center;
 }
 
 .App-logo {
@@ -42,23 +58,32 @@ a:visited {
   background-color: $my-gray;
   display: flex;
   flex-direction: column;
-  height: 100%;
   align-items: center;
   justify-content: top;
   font-size: calc(10px + 2vmin);
   color: $my-green;
+  padding: 50px;
 }
 
-.App-body > * {
-  width: 90%;
+// Site Footer - present in all router pages - part of Layout
+.Footer {
+  background-color: $my-green;
+  color: $my-gray;
+  padding: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.Footer > * {
+    padding: 10px;
 }
+.Footer > a {
+    color: $my-gray;
+}
+//.Footer > a:visited {
+//    color: $my-orange;
+//}
 
-
+////////////////////////////////////////////////////////////////////////////////
 // Effects and animations
+////////////////////////////////////////////////////////////////////////////////
 .typewriter-container {
   // required in parent to typewrite text to prevent cursor from extending width
   display: inline-block;

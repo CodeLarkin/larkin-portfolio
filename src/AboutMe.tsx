@@ -110,6 +110,19 @@ function Home() {
               <br/>
               Journey before destination.
             </p>
+            <h2>Hobbies</h2>
+            <p>
+              My hobbies include reading and audiobooks, rock climbing, anime and video games
+              <br/><br/>
+              My favorite book series is <a href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</a>, by Brandon Sanderson.
+              <br/><br/>
+              My favorite anime is Fullmetal Alchemist.
+              <br/><br/>
+              My favorite video game is Star Wars, Knights of the Old Republic.
+              <br/><br/>
+              But to be honest... I spend most of my free time learning new technologies.
+            </p>
+
           </div>
         </div>
       </div>

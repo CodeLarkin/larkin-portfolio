@@ -10,7 +10,7 @@ import AboutMe from './AboutMe';
 
 function Layout() {
     return (
-      <div className="App">
+      <div className="Layout">
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -19,6 +19,15 @@ function Layout() {
             <Route path="/about" element={<AboutMe  />} />
           </Routes>
         </BrowserRouter>
+        <div className="Footer">
+          <a href="https://twitter.com/CodeLarkin">Twitter</a>
+          <a href="https://github.com/CodeLarkin">GitHub</a>
+          <a href="https://fantomon.net">Fantomon</a>
+          <br/><br/>
+          Larkin#5716 @ Discord
+          <br/><br/>
+          <a href="https://github.com/CodeLarkin/larkin-portfolio">Website source code</a>
+        </div>
       </div>
     );
 }
