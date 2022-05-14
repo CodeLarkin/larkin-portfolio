@@ -90,7 +90,11 @@ function Home() {
 
             <h2>Technologies</h2>
             <p>
-              Linux, EVM, Hardhat, React, Ethers JS, Ethers RS, IPFS, Pinata
+              Linux, Git, Vercel
+              <br/><br/>
+              EVM, Hardhat, Ethers JS, Ethers RS
+              <br/><br/>
+              React
               <br/><br/>
             </p>
 
