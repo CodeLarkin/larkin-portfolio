@@ -7,6 +7,7 @@ import './App.scss';
 import ScrollToTop from './ScrollToTop';
 import Home from './Home';
 import Fantomon from './Fantomon';
+import FantomonGallery from './FantomonGallery';
 import AboutMe from './AboutMe';
 
 function Layout() {
@@ -17,8 +18,9 @@ function Layout() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route index element={<Home />} />
-            <Route path="/fantomon" element={<Fantomon  />} />
-            <Route path="/about" element={<AboutMe  />} />
+            <Route path="/fantomon"         element={<Fantomon />} />
+            <Route path="/fantomon-gallery" element={<FantomonGallery />} />
+            <Route path="/about"            element={<AboutMe  />} />
           </Routes>
         </BrowserRouter>
         <div className="Footer">
