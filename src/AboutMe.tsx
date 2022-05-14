@@ -93,6 +93,29 @@ function Home() {
               EVM, Hardhat, React, Ethers JS, Ethers RS, IPFS, Pinata
               <br/><br/>
             </p>
+
+            <h2>Vim</h2>
+            <p>
+              I love Vim &#9829;
+              <br/><br/>
+              The colors and style of this website are inspired by my Vim layout.
+              <br/><br/>
+            </p>
+
+            <h2>Hobbies</h2>
+            <p>
+              My hobbies include reading and audiobooks, rock climbing, anime and video games
+              <br/><br/>
+              My favorite book series is <a href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</a>, by Brandon Sanderson.
+              <br/><br/>
+              My favorite anime is Fullmetal Alchemist.
+              <br/><br/>
+              My favorite video game is Star Wars, Knights of the Old Republic.
+              <br/><br/>
+              But to be honest... I spend most of my free time learning new technologies.
+              <br/><br/>
+            </p>
+
             <h2>The Pseudonym "Larkin" </h2>
             <img src={chiri} alt="Chiri-Chiri"/>
             <p>
@@ -110,19 +133,6 @@ function Home() {
               <br/>
               Journey before destination.
             </p>
-            <h2>Hobbies</h2>
-            <p>
-              My hobbies include reading and audiobooks, rock climbing, anime and video games
-              <br/><br/>
-              My favorite book series is <a href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</a>, by Brandon Sanderson.
-              <br/><br/>
-              My favorite anime is Fullmetal Alchemist.
-              <br/><br/>
-              My favorite video game is Star Wars, Knights of the Old Republic.
-              <br/><br/>
-              But to be honest... I spend most of my free time learning new technologies.
-            </p>
-
           </div>
         </div>
       </div>

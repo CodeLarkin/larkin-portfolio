@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import './App.scss';
 
+import ScrollToTop from './ScrollToTop';
 import Home from './Home';
 import Fantomon from './Fantomon';
 import AboutMe from './AboutMe';
@@ -12,6 +13,7 @@ function Layout() {
     return (
       <div className="Layout">
         <BrowserRouter>
+          <ScrollToTop/>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route index element={<Home />} />
