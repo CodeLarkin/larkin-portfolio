@@ -19,17 +19,24 @@ function Home() {
           <div>
             <h2>Mission</h2>
             <p>
-              I will be a part of the revolutionary change made possible by decentralized networks and money.
+              I will be a part of the revolutionary change made possible by decentralized money and networks.
               <br/><br/>
               I will build technologies that empower the individual and improve lives.
               <br/><br/>
             </p>
 
             <h2>Projects</h2>
-            <Link to="/fantomon">Fantomon</Link>, <Link to="/cult">CultNFTs</Link>, <Link to="/farmgod">Farmgod Dashboard</Link>
+            <p>
+              Click one of my projects below to learn more!
               <br/><br/>
+            </p>
+            <Link className="fantomon-title" to="/fantomon">Fantomon</Link>
+            <Link className="cult-title"     to="/cult">Cult NFTs</Link>
+            <Link className="farmgod-title"  to="/farmgod"><h1 className="farmgod-h1"><span>Farmgod Dashboard</span></h1></Link>
+            <br/><br/>
 
-            <Link to="/about"><h2>Learn more about me</h2></Link>
+            <h2>About me</h2>
+            <Link to="/about">Click here to learn more about me</Link>
           </div>
         </div>
       </div>

@@ -1,11 +1,33 @@
+////////////////////////////////////////////////////////////////////////////////
+// Global Constants
+////////////////////////////////////////////////////////////////////////////////
+// Sizes
 $max-mobile-width: 600px;
 
+// Colors
 $my-gray: #3a3a3a;
 $my-green: #98BCBD;
 $my-pink: #C3A9AF;
 $my-red: #D75587;
 $my-blue: #5FAFAF;
 $my-orange: #FFAF87;
+
+
+////////////////////////////////////////////////////////////////////////////////
+// Common mixins
+////////////////////////////////////////////////////////////////////////////////
+@mixin noMarginNoPadding {
+    margin: 0px;
+    padding: 0px;
+}
+@mixin noPadding {
+    padding: 0px;
+}
+@mixin minorMargin {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // Global element styles/defaults
@@ -126,9 +148,81 @@ a {
 }
 
 
+////////////////////////////////////////////////////////////////////////////////
+// Fantomon Styles
+////////////////////////////////////////////////////////////////////////////////
+@font-face {
+  font-family: 'Press Start 2P';
+  src: local('Press Start 2P'), url(fonts/PressStart2P-vaV7.ttf) format('truetype');
+}
+@mixin fantomon-font {
+  font-family: 'Press Start 2P', cursive;
+}
+.fantomon-title {
+  color: #E9AB5F;
+  font-size: 2.0rem;
+  text-shadow: .12rem .12rem #cdfddf;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  z-index: 2;
+  text-decoration: none;
+  @include minorMargin;
+  @include noPadding;
+  @include fantomon-font;
+}
+////////////////////////////////////////////////////////////////////////////////
+// Cult NFTs
+////////////////////////////////////////////////////////////////////////////////
+.cult-title {
+  font-size: 3.0rem;
+  //font-size: 5vmin;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-decoration: none;
+  @include minorMargin;
+  @include noPadding;
+}
+////////////////////////////////////////////////////////////////////////////////
+// Farmgod Styles
+////////////////////////////////////////////////////////////////////////////////
+@font-face {
+  font-family: 'Staatliches', cursive;
+  src: local('Staatliches'), url(fonts/Staatliches-Regular.ttf) format('truetype');
+}
+@mixin farmgod-font {
+  font-family: 'Staatliches';
+}
+$rich-black-fogra-39: #0c0f0aff;
+$winter-sky: #ff206eff;
+$lemon-glacier: #fbff12ff;
+@mixin mainGradient {
+  background: linear-gradient(90deg, $winter-sky, $lemon-glacier);
+}
+.farmgod-title {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  text-decoration: none;
+  @include minorMargin;
+  @include noPadding;
+  @include farmgod-font;
+
+  span {
+    @include mainGradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 4px $winter-sky)
+  }
+}
+.farmgod-h1 {
+  @include minorMargin;
+  @include noPadding;
+}
+
 
 ////////////////////////////////////////////////////////////////////////////////
-// Effects and animations
+// Effects and Animations
 ////////////////////////////////////////////////////////////////////////////////
 .typewriter-container {
   // required in parent to typewrite text to prevent cursor from extending width
