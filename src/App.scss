@@ -2,15 +2,23 @@
 // Global Constants
 ////////////////////////////////////////////////////////////////////////////////
 // Sizes
-$max-mobile-width: 600px;
+$max-mobile-width: 800px;
 
 // Colors
-$my-gray: #3a3a3a;
-$my-green: #98BCBD;
-$my-pink: #C3A9AF;
-$my-red: #D75587;
-$my-blue: #5FAFAF;
-$my-orange: #FFAF87;
+$vim-white: #D0D0D0;
+$vim-yellow-white: #D7D7AF;
+$vim-gray: #3A3A3A;
+$vim-black: #303030;
+$vim-light-green: #98BCBD;
+$vim-dark-green: #5F875F;
+$vim-pink: #C3A9AF;
+$vim-red: #D75587;
+$vim-blue: #5FAFAF;
+$vim-light-blue: #87AFD7;
+$vim-green-blue: #87AFAF;
+$vim-orange: #FFAF87;
+$vim-brown: #D7AF5F;
+$vim-yellow: #FFD787;
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -33,12 +41,15 @@ $my-orange: #FFAF87;
 // Global element styles/defaults
 ////////////////////////////////////////////////////////////////////////////////
 a {
-    color: $my-blue;
+    color: $vim-blue;
 }
-//a:visited {
-//    color: $my-pink;
-//}
+a:visited {
+    color: $vim-dark-green;
+}
 
+h2 {
+    color: $vim-green-blue;
+}
 
 ////////////////////////////////////////////////////////////////////////////////
 // Top-level styles
@@ -46,10 +57,10 @@ a {
 
 // Router Top/Layout
 .Layout {
-  background-color: $my-gray;
+  background-color: $vim-gray;
   text-align: center;
   height: 100%;
-  color: $my-green;
+  color: $vim-white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;  // App to top, footer to bottom
@@ -61,16 +72,18 @@ a {
 
 .App-logo {
   height: 30vmin;
+  max-height: 300px;
   pointer-events: none;
+  padding-bottom: 10px;
 }
 
 .App-header {
-  background-color: $my-green;
+  background-color: $vim-green-blue;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: calc(10px + 2vmin);
-  color: $my-gray;
+  color: $vim-gray;
   padding-bottom: 30px;
 }
 
@@ -79,53 +92,73 @@ a {
 }
 
 .App-body {
-  background-color: $my-gray;
+  background-color: $vim-gray;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: top;
   font-size: calc(10px + 2vmin);
-  color: $my-green;
+  color: $vim-white;
   padding: 50px;
 }
 
 // Site Footer - present in all router pages - part of Layout
 .Footer {
-  background-color: $my-green;
-  color: $my-gray;
+  background-color: $vim-green-blue;
+  color: $vim-gray;
   padding: 50px;
 }
 .Footer > * {
     padding: 10px;
 }
 .Footer > a {
-    color: $my-gray;
+    color: $vim-gray;
 }
 //.Footer > a:visited {
-//    color: $my-orange;
+//    color: $vim-gray;
 //}
 
+
 ////////////////////////////////////////////////////////////////////////////////
-// Per-element styles
+// Sub-component and per-element styles
 ////////////////////////////////////////////////////////////////////////////////
+.projects {
+    background-color: $vim-black;
+    width: fit-width;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.vertical-centered {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .imagePreview {
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: auto;
-    height: 500px;
+    max-width: 100%;
+    max-height: 500px;
 }
 .galleryImage {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: auto;
-    height: 500px;
+    max-width: 100%;
+    max-height: 500px;
 }
 .galleryImageLong {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: auto;
-    height: 1000px;
+    max-width: 100%;
+    max-height: 1000px;
 }
 .galleryImageXLong {
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: auto;
+    max-width: 100%;
     height: 1430px;
 }
 @media only screen and (max-width: $max-mobile-width) {
@@ -151,6 +184,7 @@ a {
 ////////////////////////////////////////////////////////////////////////////////
 // Fantomon Styles
 ////////////////////////////////////////////////////////////////////////////////
+$fantomon-yellow: #E9AB5F;
 @font-face {
   font-family: 'Press Start 2P';
   src: local('Press Start 2P'), url(fonts/PressStart2P-vaV7.ttf) format('truetype');
@@ -159,7 +193,7 @@ a {
   font-family: 'Press Start 2P', cursive;
 }
 .fantomon-title {
-  color: #E9AB5F;
+  color: $fantomon-yellow;
   font-size: 2.0rem;
   text-shadow: .12rem .12rem #cdfddf;
   background-color: transparent;
@@ -172,17 +206,28 @@ a {
   @include noPadding;
   @include fantomon-font;
 }
+.fantomon-title:visited {
+  color: $fantomon-yellow;
+}
+.h1.fantomon-title {
+    font-size: 2.5rem;
+}
 ////////////////////////////////////////////////////////////////////////////////
 // Cult NFTs
 ////////////////////////////////////////////////////////////////////////////////
 .cult-title {
   font-size: 3.0rem;
-  //font-size: 5vmin;
   color: whitesmoke;
   font-family: sans-serif;
   text-decoration: none;
   @include minorMargin;
   @include noPadding;
+}
+.cult-title:visited {
+  color: whitesmoke;
+}
+.h1.cult-title {
+    font-size: 3rem;
 }
 ////////////////////////////////////////////////////////////////////////////////
 // Farmgod Styles
@@ -201,7 +246,7 @@ $lemon-glacier: #fbff12ff;
   background: linear-gradient(90deg, $winter-sky, $lemon-glacier);
 }
 .farmgod-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   letter-spacing: 5px;
   text-decoration: none;
   @include minorMargin;
@@ -218,6 +263,9 @@ $lemon-glacier: #fbff12ff;
 .farmgod-h1 {
   @include minorMargin;
   @include noPadding;
+}
+.h2.farmgod-title {
+    font-size: 2.5rem;
 }
 
 
@@ -240,7 +288,7 @@ $lemon-glacier: #fbff12ff;
     animation-direction: alternate;
   }
   .typewriter {
-    border-right: .70em solid $my-gray;
+    border-right: .70em solid $vim-gray;
     letter-spacing: .15em;
     animation:
       typing 1.5s steps(25, end),
@@ -265,9 +313,9 @@ $lemon-glacier: #fbff12ff;
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: $my-gray; }
+  50% { border-color: $vim-gray; }
 }
 @keyframes blink-caret-green {
   from, to { border-color: transparent }
-  50% { border-color: $my-green; }
+  50% { border-color: $vim-light-green; }
 }

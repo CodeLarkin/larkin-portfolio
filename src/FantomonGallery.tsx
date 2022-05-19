@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import bridgeFour from './images/bridge-four.png';
 import fantomonHome from './images/fantomon/home.png';
@@ -15,7 +14,7 @@ import gunkFarm from './images/fantomon/gunk-farm.png';
 import journey from './images/fantomon/journey.png';
 import './App.scss';
 
-function Fantomon() {
+function FantomonGallery() {
     return (
       <div className="App">
         <header className="App-header">
@@ -26,7 +25,7 @@ function Fantomon() {
           </div>
         </header>
         <div className="App-body vertical-centered">
-            <h2>Fantomon Gallery</h2>
+            <h2 className="fantomon-title"><span>Fantomon Gallery</span></h2>
             <img className="galleryImage" src={fantomonHome} alt="Fantomon Homescreen"/>
             <img className="galleryImage" src={trainer2} alt="Trainer #2"/>
             <img className="galleryImage" src={fantomon1} alt="Fantomon #1"/>
@@ -43,4 +42,4 @@ function Fantomon() {
     );
 }
 
-export default Fantomon;
+export default FantomonGallery;

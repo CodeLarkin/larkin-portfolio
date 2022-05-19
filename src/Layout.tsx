@@ -8,6 +8,8 @@ import ScrollToTop from './ScrollToTop';
 import Home from './Home';
 import Fantomon from './Fantomon';
 import FantomonGallery from './FantomonGallery';
+import Cult from './Cult';
+import Farmgod from './Farmgod';
 import AboutMe from './AboutMe';
 
 function Layout() {
@@ -20,6 +22,8 @@ function Layout() {
             <Route index element={<Home />} />
             <Route path="/fantomon"         element={<Fantomon />} />
             <Route path="/fantomon-gallery" element={<FantomonGallery />} />
+            <Route path="/cult"             element={<Cult />} />
+            <Route path="/farmgod"          element={<Farmgod />} />
             <Route path="/about"            element={<AboutMe  />} />
           </Routes>
         </BrowserRouter>

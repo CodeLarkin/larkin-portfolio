@@ -2,7 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import bridgeFour from './images/bridge-four.png';
+
 import './App.scss';
+import Mission from './Mission';
+import Projects from './Projects';
 
 
 function Home() {
@@ -17,22 +20,9 @@ function Home() {
         </header>
         <div className="App-body">
           <div>
-            <h2>Mission</h2>
-            <p>
-              I will be a part of the revolutionary change made possible by decentralized money and networks.
-              <br/><br/>
-              I will build technologies that empower the individual and improve lives.
-              <br/><br/>
-            </p>
+            <Mission />
 
-            <h2>Projects</h2>
-            <p>
-              Click one of my projects below to learn more!
-              <br/><br/>
-            </p>
-            <Link className="fantomon-title" to="/fantomon">Fantomon</Link>
-            <Link className="cult-title"     to="/cult">Cult NFTs</Link>
-            <Link className="farmgod-title"  to="/farmgod"><h1 className="farmgod-h1"><span>Farmgod Dashboard</span></h1></Link>
+            <Projects />
             <br/><br/>
 
             <h2>About me</h2>

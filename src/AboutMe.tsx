@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 
 import bridgeFour from './images/bridge-four.png';
 import chiri from './images/Chiri-Chiri.jpg';
+
 import './App.scss';
+import Mission from './Mission';
+import Projects from './Projects';
 
 
 function Home() {
@@ -18,13 +21,7 @@ function Home() {
         </header>
         <div className="App-body">
           <div>
-            <h2>Mission</h2>
-            <p>
-              I will be a part of the revolutionary change that decentralized networks and money bring to the world.
-              <br/><br/>
-              I will build technologies that empower the individual and improve lives.
-              <br/><br/>
-            </p>
+            <Mission />
 
             <h2>Philosophy</h2>
             <p>
@@ -38,10 +35,6 @@ function Home() {
               <br/><br/>
               My loyalties lie with people, not companies or nations.
               <br/><br/>
-            </p>
-
-            <h2></h2>
-            <p>
             </p>
 
             <h2>About Me</h2>
@@ -62,11 +55,8 @@ function Home() {
               <br/><br/>
             </p>
 
-            <h2>Projects</h2>
-            <p>
-              <Link to="/fantomon">Fantomon</Link>, <Link to="/cult">CultNFTs</Link>, <Link to="/farmgod">Farmgod Dashboard</Link>
-              <br/><br/>
-            </p>
+            <Projects />
+            <br/><br/>
 
             <h2>Interests</h2>
             <p>
@@ -102,7 +92,7 @@ function Home() {
             <p>
               I love Vim &#9829;
               <br/><br/>
-              The colors and style of this website are inspired by my Vim layout.
+              The colors and style of this website are inspired by my favorite Vim theme "<a href="https://github.com/junegunn/seoul256.vim">seoul256.vim</a>".
               <br/><br/>
             </p>
 
@@ -129,13 +119,13 @@ function Home() {
               <br/><br/>
               The logo at the top of this site is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens can lend us.
               <br/><br/>
-              When I find myself going through a rough time, I find solace in the journeys, trials and triumphs of Kaladin, Dalinar, Shallan and others.
+              When I find myself going through a rough time, I find solace in the journeys, trials and triumphs of Kaladin, Shallan, Dalinar and others.
               <br/><br/>
-              Life before death.
+              "Life before death."
               <br/>
-              Strength before weakness.
+              "Strength before weakness."
               <br/>
-              Journey before destination.
+              "Journey before destination."
             </p>
           </div>
         </div>
