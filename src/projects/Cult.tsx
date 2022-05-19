@@ -1,10 +1,10 @@
 import React from 'react';
 
-import bridgeFour from './images/bridge-four.png';
-import skullysMint from './images/cult/skullys-mint.png';
-import skully2 from './images/cult/skully-2.png';
-import ghostly92 from './images/cult/ghostly-92.png';
-import './App.scss';
+import bridgeFour from '../images/bridge-four.png';
+import skullysMint from '../images/cult/skullys-mint.png';
+import skully2 from '../images/cult/skully-2.png';
+import ghostly92 from '../images/cult/ghostly-92.png';
+
 
 function Cult() {
     return (

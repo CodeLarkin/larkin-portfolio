@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom';
 
 import bridgeFour from './images/bridge-four.png';
 
-import './App.scss';
 import Mission from './Mission';
-import Projects from './Projects';
+import Projects from './projects/Projects';
 
 
 function Home() {

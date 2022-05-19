@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import bridgeFour from './images/bridge-four.png';
-import fantomonHome from './images/fantomon/home.png';
-import fantomon1 from './images/fantomon/fantomon.svg';
-import './App.scss';
+import bridgeFour from '../images/bridge-four.png';
+import fantomonHome from '../images/fantomon/home.png';
+import fantomon1 from '../images/fantomon/fantomon.svg';
+
 
 function Fantomon() {
     return (
@@ -58,18 +58,22 @@ function Fantomon() {
 
             <h3>Per-card Royalties Based on Effort</h3>
             <p>
-              Royalties
+              Section in progress...
               <br/><br/>
             </p>
 
             <h3>Pseudorandom Minting</h3>
             <p>
-              Attributes, etc...
+              Section in progress...
+              <br/><br/>
+              Attributes
               <br/><br/>
             </p>
 
             <h3>Fantomon Foods and Farming</h3>
             <p>
+              Section in progress...
+              <br/><br/>
               GunkFarm
               <br/><br/>
               HealingRifts
@@ -84,6 +88,8 @@ function Fantomon() {
 
             <h3>Community-made Journeys</h3>
             <p>
+              Section in progress...
+              <br/><br/>
               Journeys
               <br/><br/>
             </p>

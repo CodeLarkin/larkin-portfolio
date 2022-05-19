@@ -6,11 +6,12 @@ import './App.scss';
 
 import ScrollToTop from './ScrollToTop';
 import Home from './Home';
-import Fantomon from './Fantomon';
-import FantomonGallery from './FantomonGallery';
-import Cult from './Cult';
-import Farmgod from './Farmgod';
+import Fantomon from './projects/Fantomon';
+import FantomonGallery from './projects/FantomonGallery';
+import Cult from './projects/Cult';
+import Farmgod from './projects/Farmgod';
 import AboutMe from './AboutMe';
+
 
 function Layout() {
     return (

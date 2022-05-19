@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import bridgeFour from './images/bridge-four.png';
-import farmgodFantom from './images/farmgod/fantom.png';
-import farmgodMatic from './images/farmgod/matic.png';
-import './App.scss';
+import bridgeFour from '../images/bridge-four.png';
+import farmgodFantom from '../images/farmgod/fantom.png';
+import farmgodMatic from '../images/farmgod/matic.png';
+
 
 function Farmgod() {
     return (
