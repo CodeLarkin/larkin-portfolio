@@ -182,54 +182,6 @@ h2 {
 
 
 ////////////////////////////////////////////////////////////////////////////////
-// Fantomon Styles
-////////////////////////////////////////////////////////////////////////////////
-$fantomon-yellow: #E9AB5F;
-@font-face {
-  font-family: 'Press Start 2P';
-  src: local('Press Start 2P'), url(fonts/PressStart2P-vaV7.ttf) format('truetype');
-}
-@mixin fantomon-font {
-  font-family: 'Press Start 2P', cursive;
-}
-.fantomon-title {
-  color: $fantomon-yellow;
-  font-size: 2.0rem;
-  text-shadow: .12rem .12rem #cdfddf;
-  background-color: transparent;
-  display: flex;
-  justify-content: center;
-  padding: 15px;
-  z-index: 2;
-  text-decoration: none;
-  @include minorMargin;
-  @include noPadding;
-  @include fantomon-font;
-}
-.fantomon-title:visited {
-  color: $fantomon-yellow;
-}
-.h1.fantomon-title {
-    font-size: 2.5rem;
-}
-////////////////////////////////////////////////////////////////////////////////
-// Cult NFTs
-////////////////////////////////////////////////////////////////////////////////
-.cult-title {
-  font-size: 3.0rem;
-  color: whitesmoke;
-  font-family: sans-serif;
-  text-decoration: none;
-  @include minorMargin;
-  @include noPadding;
-}
-.cult-title:visited {
-  color: whitesmoke;
-}
-.h1.cult-title {
-    font-size: 3rem;
-}
-////////////////////////////////////////////////////////////////////////////////
 // Farmgod Styles
 ////////////////////////////////////////////////////////////////////////////////
 @font-face {
@@ -265,6 +217,54 @@ $lemon-glacier: #fbff12ff;
   @include noPadding;
 }
 .h2.farmgod-title {
+    font-size: 2.5rem;
+}
+////////////////////////////////////////////////////////////////////////////////
+// Cult NFTs
+////////////////////////////////////////////////////////////////////////////////
+.cult-title {
+  font-size: 3.0rem;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-decoration: none;
+  @include minorMargin;
+  @include noPadding;
+}
+.cult-title:visited {
+  color: whitesmoke;
+}
+.h1.cult-title {
+    font-size: 3rem;
+}
+////////////////////////////////////////////////////////////////////////////////
+// Fantomon Styles
+////////////////////////////////////////////////////////////////////////////////
+$fantomon-yellow: #E9AB5F;
+@font-face {
+  font-family: 'Press Start 2P';
+  src: local('Press Start 2P'), url(fonts/PressStart2P-vaV7.ttf) format('truetype');
+}
+@mixin fantomon-font {
+  font-family: 'Press Start 2P', cursive;
+}
+.fantomon-title {
+  color: $fantomon-yellow;
+  font-size: 2.0rem;
+  text-shadow: .12rem .12rem #cdfddf;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  z-index: 2;
+  text-decoration: none;
+  @include minorMargin;
+  @include noPadding;
+  @include fantomon-font;
+}
+.fantomon-title:visited {
+  color: $fantomon-yellow;
+}
+.h1.fantomon-title {
     font-size: 2.5rem;
 }
 

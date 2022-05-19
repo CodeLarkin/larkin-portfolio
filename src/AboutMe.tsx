@@ -33,13 +33,15 @@ function Home() {
               <br/><br/>
               Different individuals bring unique experiences and perspectives to the table. One should never be forced to adopt someone else's worldview, culture, or opinion. Diversity enriches a team or community.
               <br/><br/>
-              My loyalties lie with people, not companies or nations.
+              My loyalties lie with individuals.
+              <br/><br/>
+              Everyone deserves a chance.
               <br/><br/>
             </p>
 
             <h2>About Me</h2>
             <p>
-              I am an engineer with 6 years of experience. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe made me truly appreciate the global nature of this space and how it can bring people together.
+              I am an engineer with 6 years of work experience. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe made me truly appreciate the global nature of this space and how it can bring people together.
               <br/><br/>
               I had already been passionate about the Web3 space, but my experience in 2021 as a developer and community leader for Fantomon compounded my passion.
               <br/><br/>
@@ -47,7 +49,7 @@ function Home() {
 
             <h2>Before Web3</h2>
             <p>
-              Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to developer frameworks written in Python. 
+              Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to frameworks written in Python for development targeting embedded systems.
               <br/><br/>
               I have loved every team I have worked on, and became close with my mentors and peers.
               <br/><br/>
@@ -56,7 +58,6 @@ function Home() {
             </p>
 
             <Projects />
-            <br/><br/>
 
             <h2>Interests</h2>
             <p>

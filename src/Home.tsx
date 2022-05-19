@@ -23,7 +23,6 @@ function Home() {
             <Mission />
 
             <Projects />
-            <br/><br/>
 
             <h2>About me</h2>
             <Link to="/about">Click here to learn more about me</Link>

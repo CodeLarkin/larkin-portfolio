@@ -10,10 +10,13 @@ function Projects() {
           </p>
           <div className="vertical-centered">
             <div className="projects">
-              <Link className="fantomon-title" to="/fantomon">Fantomon</Link>
-              <Link className="cult-title"     to="/cult"><b>Cult NFTs</b></Link>
               <Link className="farmgod-title"  to="/farmgod"><h1 className="farmgod-h1"><span>FARMGOD DASHBOARD</span></h1></Link>
+              <Link className="cult-title"     to="/cult"><b>Cult NFTs</b></Link>
+              <Link className="fantomon-title" to="/fantomon">Fantomon</Link>
             </div>
+            <p>
+              These are ordered roughly in chronological order, but <b>Fantomon</b> is my largest and most complex Web3 project to date.
+            </p>
           </div>
         </div>
     );
