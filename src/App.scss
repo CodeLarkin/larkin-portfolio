@@ -40,15 +40,18 @@ $vim-yellow: #FFD787;
 ////////////////////////////////////////////////////////////////////////////////
 // Global element styles/defaults
 ////////////////////////////////////////////////////////////////////////////////
+button {
+  cursor: pointer;
+}
 a {
-    color: $vim-blue;
+  color: $vim-blue;
 }
 a:visited {
-    color: $vim-dark-green;
+  color: $vim-dark-green;
 }
 
 h2 {
-    color: $vim-green-blue;
+  color: $vim-green-blue;
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -86,8 +89,12 @@ h2 {
   color: $vim-gray;
   padding-bottom: 30px;
 }
+.App-header > a {
+  color: inherit;
+  text-decoration: none;
+}
 
-.App-header > * {
+.App-header > button {
   margin: 5px;
 }
 
@@ -100,6 +107,12 @@ h2 {
   font-size: calc(10px + 2vmin);
   color: $vim-white;
   padding: 50px;
+}
+.App-body button {
+  color: $vim-blue;
+  font-size: inherit;
+  background-color: $vim-gray;
+  border: none;
 }
 
 // Site Footer - present in all router pages - part of Layout
@@ -179,6 +192,9 @@ h2 {
       height:auto;
   }
 }
+.pointer {
+    cursor: pointer;
+}
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -216,7 +232,7 @@ $lemon-glacier: #fbff12ff;
   @include minorMargin;
   @include noPadding;
 }
-.h2.farmgod-title {
+.h1.farmgod-title {
     font-size: 2.5rem;
 }
 ////////////////////////////////////////////////////////////////////////////////

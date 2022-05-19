@@ -1,21 +1,19 @@
+// External packages
 import React from 'react';
 
-import bridgeFour from '../images/bridge-four.png';
+// Images
 import skullysMint from '../images/cult/skullys-mint.png';
 import skully2 from '../images/cult/skully-2.png';
 import ghostly92 from '../images/cult/ghostly-92.png';
+
+// Sub-components
+import Header from '../Header';
 
 
 function Cult() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={bridgeFour} className="App-logo" alt="Bridge Four" />
-          <h1>Larkin</h1>
-          <div className="typewriter-container">
-            <p className="typewriter">Web3 Engineer</p>
-          </div>
-        </header>
+        <Header />
         <div className="App-body">
           <div>
             <h1 className="h1 cult-title">Cult NFTs</h1>

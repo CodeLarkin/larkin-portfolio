@@ -1,21 +1,19 @@
+// External packages
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import bridgeFour from '../images/bridge-four.png';
+// Images
 import fantomonHome from '../images/fantomon/home.png';
 import fantomon1 from '../images/fantomon/fantomon.svg';
+
+// Sub-components
+import Header from '../Header';
 
 
 function Fantomon() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={bridgeFour} className="App-logo" alt="Bridge Four" />
-          <h1>Larkin</h1>
-          <div className="typewriter-container">
-            <p className="typewriter">Web3 Engineer</p>
-          </div>
-        </header>
+        <Header />
         <div className="App-body">
           <div>
             <h1 className="h1 fantomon-title">Fantomon</h1>

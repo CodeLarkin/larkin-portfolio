@@ -1,6 +1,7 @@
+// External packages
 import React from 'react';
 
-import bridgeFour from '../images/bridge-four.png';
+// Images
 import fantomonHome from '../images/fantomon/home.png';
 import trainer2 from '../images/fantomon/trainer.svg';
 import fantomon1 from '../images/fantomon/fantomon.svg';
@@ -13,17 +14,14 @@ import healingRifts from '../images/fantomon/healing-rifts.png';
 import gunkFarm from '../images/fantomon/gunk-farm.png';
 import journey from '../images/fantomon/journey.png';
 
+// Sub-components
+import Header from '../Header';
+
 
 function FantomonGallery() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={bridgeFour} className="App-logo" alt="Bridge Four" />
-          <h1>Larkin</h1>
-          <div className="typewriter-container">
-            <p className="typewriter">Web3 Engineer</p>
-          </div>
-        </header>
+        <Header />
         <div className="App-body vertical-centered">
             <h2 className="fantomon-title"><span>Fantomon Gallery</span></h2>
             <img className="galleryImage" src={fantomonHome} alt="Fantomon Homescreen"/>
