@@ -45,6 +45,7 @@ function Layout() {
               {(!isMobile || menuOpen) &&
                 <Menu active={menuOpen} close={() => setMenuOpen(false)}/>
               }
+              <div/><div/><div/>
             </div>
             <ScrollToTop/>
             <div className="App">

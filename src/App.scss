@@ -105,11 +105,12 @@ section {
   position: sticky;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   top: 0px; /*100px to give some room for the sidebar heading (without this, absolute position will make the nav overlap)*/
   left: 0px; /* you can make this zero and add `padding-left: 15px` */
   min-width: max-content;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   padding-top: 20px;
   padding-bottom: 20px;
   height: calc(100vh - 40px); // screen height minus padding
@@ -120,6 +121,16 @@ section {
   font-weight: bold;
   background-color: $vim-black;
   border: none;
+}
+@media only screen and (max-width: $max-mobile-width) {
+  .MenuParent {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+  }
 }
 .LonelyMenuButtonContainer {
   position: fixed;

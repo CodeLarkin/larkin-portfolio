@@ -50,8 +50,7 @@ export default function Menu(props: Props) {
     return (
       <div className={props.active ? "OpenMenu": "ClosedMenu"}>
         {props.active &&
-          <div>
-            <h2>Navigate</h2>
+          <div className="vertical-centered">
             <div className="vertical-left">
               <RouterLinks pathname={location.pathname} closeMenu={props.close}/>
             </div>
