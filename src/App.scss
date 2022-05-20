@@ -5,7 +5,8 @@
 $max-mobile-width: 800px;
 
 // Colors
-$vim-white: #D0D0D0;
+//$vim-white: #D0D0D0;
+$vim-white: whitesmoke;
 $vim-yellow-white: #D7D7AF;
 $vim-gray: #3A3A3A;
 $vim-black: #303030;
@@ -19,6 +20,8 @@ $vim-green-blue: #87AFAF;
 $vim-orange: #FFAF87;
 $vim-brown: #D7AF5F;
 $vim-yellow: #FFD787;
+
+$translucent-whitesmoke: rgba(245,245,245,0.75);
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -54,7 +57,21 @@ a:visited {
 }
 
 h2 {
-  color: $vim-green-blue;
+  color: white;
+}
+h3 {
+  color: white;
+}
+section {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media only screen and (min-width: $max-mobile-width) {
+  section {
+    max-width: 75%;
+    padding-left: 150px;
+    padding-right: 150px;
+  }
 }
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -66,7 +83,7 @@ h2 {
   background-color: $vim-gray;
   text-align: center;
   height: 100%;
-  color: $vim-white;
+  color: whitesmoke;
   display: flex;
   flex-direction: column;
   justify-content: space-between;  // App to top, footer to bottom
@@ -95,14 +112,34 @@ h2 {
   height: calc(100vh - 40px); // screen height minus padding
 }
 .MenuRoutes button {
-  color: $vim-white;
+  color: whitesmoke;
   font-size: large;
   font-weight: bold;
   background-color: $vim-black;
   border: none;
 }
+.LonelyMenuButtonContainer {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+.LonelyMenuButton {
+  background-color: $translucent-whitesmoke;
+  color: #303030;
+  font-size: xxx-large;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
 .MenuToggleButton {
-  color: $vim-white;
+  color: whitesmoke;
   font-size: xxx-large;
   font-weight: bold;
   background-color: $vim-black;
@@ -124,7 +161,7 @@ h2 {
 }
 
 .App-header {
-  background-color: $vim-green-blue;
+  background-color: whitesmoke;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,11 +182,12 @@ h2 {
   background-color: $vim-gray;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   justify-content: top;
+  text-align: left;
   font-size: calc(10px + 2vmin);
-  color: $vim-white;
-  padding: 50px;
+  color: whitesmoke;
+  padding: 25px;
 }
 .App-body button {
   color: $vim-blue;
@@ -160,7 +198,7 @@ h2 {
 
 // Site Footer - present in all router pages - part of Layout
 .Footer {
-  background-color: $vim-green-blue;
+  background-color: whitesmoke;
   color: $vim-gray;
   padding: 25px;
 }
@@ -185,17 +223,33 @@ h2 {
 }
 .ProjectCard {
   background-color: $vim-black;
-  width: 450px;
-  height: 750px;
+  width: 350px;
+  height: 650px;
   padding: 25px;
   margin: 25px;
-  color: $vim-white;
+  color: whitesmoke;
   text-decoration: none;
   justify-content: space-between;
+  text-align: left;
   @include borderRadius;
 }
+.ProjectCard h3 {
+  text-align: center;
+}
+.ProjectCard p {
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 30px;
+}
 .ProjectCard:visited {
-  color: $vim-white;
+  color: whitesmoke;
+}
+.horizontal-centered {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .vertical-centered {
   display: flex;
@@ -259,15 +313,15 @@ h2 {
     height:auto;
   }
   .galleryImage {
-    max-width: 400px;
+    max-width: 300px;
     height:auto;
   }
   .galleryImageLong {
-    max-width: 400px;
+    max-width: 300px;
     height:auto;
   }
   .galleryImageXLong {
-    max-width: 400px;
+    max-width: 300px;
     height:auto;
   }
 }
@@ -316,6 +370,8 @@ $lemon-glacier: #fbff12ff;
 }
 .h2.farmgod-title {
   font-size: calc(10px + 3vmin);
+  text-align: left;
+  align-items: left;
 }
 ////////////////////////////////////////////////////////////////////////////////
 // Cult NFTs
@@ -333,6 +389,7 @@ $lemon-glacier: #fbff12ff;
 }
 .h2.cult-title {
   font-size: calc(10px + 4vmin);
+  text-align: left;
 }
 ////////////////////////////////////////////////////////////////////////////////
 // Fantomon Styles
@@ -350,9 +407,6 @@ $fantomon-yellow: #E9AB5F;
   font-size: calc(10px + 3vmin);
   text-shadow: .12rem .12rem #cdfddf;
   background-color: transparent;
-  display: flex;
-  justify-content: center;
-  padding: 15px;
   z-index: 2;
   text-decoration: none;
   @include minorMargin;
@@ -364,6 +418,7 @@ $fantomon-yellow: #E9AB5F;
 }
 .h2.fantomon-title {
   font-size: calc(10px + 3vmin);
+  text-align: left;
 }
 
 

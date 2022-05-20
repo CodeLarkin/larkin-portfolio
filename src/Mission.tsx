@@ -1,6 +1,6 @@
 function Mission() {
     return (
-        <div>
+        <section>
           <h2>Mission</h2>
           <p>
             I will be a part of the revolutionary change made possible by decentralized money and networks.
@@ -8,7 +8,7 @@ function Mission() {
             I will build technologies that empower the individual and improve lives.
             <br/><br/>
           </p>
-        </div>
+        </section>
     );
 }
 export default Mission;

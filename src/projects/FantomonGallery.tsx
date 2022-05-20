@@ -14,14 +14,10 @@ import healingRifts from '../images/fantomon/healing-rifts.png';
 import gunkFarm from '../images/fantomon/gunk-farm.png';
 import journey from '../images/fantomon/journey.png';
 
-// Sub-components
-import Header from '../Header';
-
 
 function FantomonGallery() {
     return (
       <div className="App">
-        <Header />
         <div className="App-body">
           <h2 className="fantomon-title"><span>Fantomon Gallery</span></h2>
           <div className="cards">
@@ -30,9 +26,13 @@ function FantomonGallery() {
             <img className="galleryImage" src={fantomon1} alt="Fantomon #1"/>
             <img className="galleryImage" src={trainers} alt="Trainers"/>
             <img className="galleryImage" src={fantomons} alt="Fantomons"/>
+          </div>
+          <div className="cards">
             <img className="galleryImageLong" src={trainerInspect} alt="Trainer Inspect"/>
             <img className="galleryImageLong" src={fantomonInspect} alt="Fantomon Inspect"/>
             <img className="galleryImageXLong" src={gunkFarm} alt="Gunk Farm"/>
+          </div>
+          <div className="cards">
             <img className="galleryImage" src={quasar} alt="Quasar"/>
             <img className="galleryImage" src={healingRifts} alt="Healing Rifts"/>
             <img className="galleryImage" src={journey} alt="Journey"/>

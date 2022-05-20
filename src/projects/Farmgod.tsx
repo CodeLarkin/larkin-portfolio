@@ -9,14 +9,10 @@ import farmgodMatic from '../images/farmgod/matic.png';
 // Utils
 import { LarkinLink } from '../utils/Links';
 
-// Sub-components
-import Header from '../Header';
-
 
 function Farmgod() {
     return (
       <div className="App">
-        <Header />
         <div className="App-body">
             <h2 className="h2 farmgod-title"><span>FARMGOD DASHBOARD</span></h2>
             <p>

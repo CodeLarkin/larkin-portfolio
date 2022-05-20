@@ -1,60 +1,56 @@
 import { Link } from 'react-router-dom';
 
 // Images
-import farmgodFantom from '../images/farmgod/fantom.png';
-import farmgodMatic from '../images/farmgod/matic.png';
-import skullysMint from '../images/cult/skullys-mint.png';
-import skully2 from '../images/cult/skully-2.png';
-import ghostly92 from '../images/cult/ghostly-92.png';
-import fantomonHome from '../images/fantomon/home.png';
-import trainer2 from '../images/fantomon/trainer.svg';
-import fantomon1 from '../images/fantomon/fantomon.svg';
+import trainer from '../images/fantomon/trainer-01.png';
+import cult from '../images/cult/skullys-logo.png';
+import farmgod from '../images/farmgod/farmgod-logo.png';
 
 
 function Projects() {
     return (
         <div>
-          <h2>Projects</h2>
-          <p>
-            Select one of my projects below to learn more!
-            <br/>
-          </p>
+          <section>
+            <h2>Projects</h2>
+            <p>
+              Select one of my projects below to learn more!
+              <br/>
+            </p>
+          </section>
           <div className="cards">
             <Link className="ProjectCard" to="/fantomon">
-              <div>
-                <h2 className="h2 fantomon-title">Fantomon</h2>
+              <h3>Fantomon</h3>
+              <div className="vertical-centered">
+                <img className="mediumLargeImagePreview" src={trainer} alt="Trainer"/>
+              </div>
+              <p>
                 GameFi trading-card-game built on Fantom.
-              </div>
-              <div>
-                <img className="mediumImagePreview" src={fantomonHome} alt="Fantomon Homescreen"/>
-                <br/>
-                <img className="mediumImagePreview" src={trainer2} alt="Trainer #2"/>
-                <img className="mediumImagePreview" src={fantomon1} alt="Fantomon #1"/>
-              </div>
-              Collect, Farm, Journey, Battle!
+                <br/><br/>
+                Collect, Farm, Journey, Battle!
+              </p>
             </Link>
 
             <Link className="ProjectCard" to="/cult">
-              <div>
-                <h2 className="h1 cult-title"><b>Cult NFTs</b></h2>
-                <p>&#128367;&#65039; Join the Cult &#128367;&#65039;</p>
+              <h3>The Cult</h3>
+              <div className="vertical-centered">
+                <img className="mediumLargeImagePreview" src={cult} alt="Cult"/>
               </div>
-              <div>
-                <img className="smallImagePreview" src={skullysMint} alt="SKULLYS Mint"/>
-                <br/>
-                <img className="mediumImagePreview" src={skully2} alt="SKULLY 2"/>
-                <img className="mediumImagePreview" src={ghostly92} alt="Ghostly 92"/>
-              </div>
-              A community of builders, creators, and degens.
+              <p>
+                Join the Cult &#128367;&#65039;
+                <br/><br/>
+                A community of builders, creators, and degens.
+              </p>
             </Link>
 
             <Link className="ProjectCard" to="/farmgod">
-              <div>
-                <h2 className="h2 farmgod-title"><span>FARMGOD</span><br/><span>DASHBOARD</span></h2>
-                Multi-protocol yield farming dashboard.
+              <h3>FARMGOD</h3>
+              <div className="vertical-centered">
+                <img className="mediumLargeImagePreview" src={farmgod} alt="Farmgod"/>
               </div>
-              <img className="mediumLargeImagePreview" src={farmgodMatic} alt="Farmgod Matic"/>
-              Harvest all your yields at once!
+              <p>
+                Multi-protocol yield farming dashboard.
+                <br/><br/>
+                Harvest all your yields at once!
+              </p>
             </Link>
           </div>
         </div>

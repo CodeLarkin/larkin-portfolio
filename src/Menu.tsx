@@ -21,7 +21,7 @@ export default function Menu(props: Props) {
     const routes: Record<string, string> = {
         "/"                 : "\u{1F3E0} Home",
         "/farmgod"          : "\u{2728} Farmgod",
-        "/cult"             : "\u{1f56f}\u{fe0f} Cult NFTs",
+        "/cult"             : "\u{1f56f}\u{fe0f} The Cult",
         "/fantomon"         : "\u{1F47E} Fantomon",
         "/fantomon-gallery" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Gallery",
         "/resume"           : "\u{1F4C3} Resume",

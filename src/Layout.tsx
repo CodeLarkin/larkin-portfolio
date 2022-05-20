@@ -1,7 +1,7 @@
 // External packages
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import {isMobile} from 'react-device-detect';
+//import {isMobile} from 'react-device-detect';
 
 // App style
 import './App.scss';
@@ -11,6 +11,7 @@ import ScrollToTop from './utils/ScrollToTop';
 import { LarkinLink } from './utils/Links';
 
 // Sub-components
+import Header from './Header';
 import Home from './Home';
 import Menu from './Menu';
 import Fantomon from './projects/Fantomon';
@@ -21,48 +22,54 @@ import AboutMe from './AboutMe';
 
 
 function Layout() {
-    const [menuOpen, setMenuOpen] = React.useState(!isMobile && !window.matchMedia("only screen and (max-width: 800px)").matches);
+    const isMobile = window.matchMedia("only screen and (max-width: 800px)").matches;
+    const [menuOpen, setMenuOpen] = React.useState(!isMobile);
+    console.log(`isMobile: ${isMobile}, menuOpen: ${menuOpen}, isMobile && !menuOpen: ${isMobile && !menuOpen}`);
+
     return (
       <div className="Layout">
         <BrowserRouter>
           <div className="MenuAndApp">
-            <div className="MenuParent">
+            <div className={(isMobile && !menuOpen) ? "LonelyMenuButtonContainer" : "MenuParent"}>
               {menuOpen ?
               <div>
-                <button onClick={() => setMenuOpen(false)} className="MenuToggleButton">
+                <button onClick={() => setMenuOpen(false)} className={(isMobile && !menuOpen) ? "LonelyMenuButton" : "MenuToggleButton"}>
                   &laquo;
                 </button>
               </div>
               :
               <div>
-                <button onClick={() => setMenuOpen(true)} className="MenuToggleButton">
+                <button onClick={() => setMenuOpen(true)} className={(isMobile && !menuOpen) ? "LonelyMenuButton" : "MenuToggleButton"}>
                   &#9776;
                 </button>
               </div>
               }
-              <Menu active={menuOpen} close={() => setMenuOpen(false)}/>
+              {(!isMobile || menuOpen) &&
+                <Menu active={menuOpen} close={() => setMenuOpen(false)}/>
+              }
             </div>
             <ScrollToTop/>
-              <div className="App">
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                  <Route index element={<Home />} />
-                  <Route path="/fantomon"         element={<Fantomon />} />
-                  <Route path="/fantomon-gallery" element={<FantomonGallery />} />
-                  <Route path="/cult"             element={<Cult />} />
-                  <Route path="/farmgod"          element={<Farmgod />} />
-                  <Route path="/resume"           element={<AboutMe  />} />
-                  <Route path="/about"            element={<AboutMe  />} />
-                </Routes>
-                <div className="Footer">
-                  <LarkinLink href="https://twitter.com/CodeLarkin">Twitter</LarkinLink>
-                  <LarkinLink href="https://github.com/CodeLarkin">GitHub</LarkinLink>
-                  <LarkinLink href="https://fantomon.net">Fantomon</LarkinLink>
-                  <br/><br/>
-                  Larkin#5716 @ Discord
-                  <br/><br/>
-                  <LarkinLink href="https://github.com/CodeLarkin/larkin-portfolio">Website source code (React & Typescript)</LarkinLink>
-                </div>
+            <div className="App">
+              <Header />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route index element={<Home />} />
+                <Route path="/fantomon"         element={<Fantomon />} />
+                <Route path="/fantomon-gallery" element={<FantomonGallery />} />
+                <Route path="/cult"             element={<Cult />} />
+                <Route path="/farmgod"          element={<Farmgod />} />
+                <Route path="/resume"           element={<AboutMe  />} />
+                <Route path="/about"            element={<AboutMe  />} />
+              </Routes>
+              <div className="Footer">
+                <LarkinLink href="https://twitter.com/CodeLarkin">Twitter</LarkinLink>
+                <LarkinLink href="https://github.com/CodeLarkin">GitHub</LarkinLink>
+                <LarkinLink href="https://fantomon.net">Fantomon</LarkinLink>
+                <br/><br/>
+                Larkin#5716 @ Discord
+                <br/><br/>
+                <LarkinLink href="https://github.com/CodeLarkin/larkin-portfolio">Website source code (React & Typescript)</LarkinLink>
+              </div>
             </div>
           </div>
         </BrowserRouter>

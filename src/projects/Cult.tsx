@@ -9,17 +9,13 @@ import ghostly92 from '../images/cult/ghostly-92.png';
 // Utils
 import { LarkinLink } from '../utils/Links';
 
-// Sub-components
-import Header from '../Header';
-
 
 function Cult() {
     return (
       <div className="App">
-        <Header />
         <div className="App-body">
-          <div>
-            <h2 className="h2 cult-title">Cult NFTs</h2>
+          <section>
+            <h2 className="h2 cult-title">The Cult</h2>
             <p>
               &#128367;&#65039; Join the Cult &#128367;&#65039;
               <br/><br/>
@@ -80,7 +76,7 @@ function Cult() {
             <br/><br/>
             <LarkinLink href="https://ftmscan.com/address/0x4eab37d5c62fa3bff8f7a5ffce6a88cfc098749c#code">Ghost Companions Contract</LarkinLink>
             <br/><br/>
-          </div>
+          </section>
         </div>
       </div>
     );

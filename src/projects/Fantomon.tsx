@@ -9,14 +9,10 @@ import fantomon1 from '../images/fantomon/fantomon.svg';
 // Utils
 import { LarkinLink, LarkinRouterLink } from '../utils/Links';
 
-// Sub-components
-import Header from '../Header';
-
 
 function Fantomon() {
     return (
       <div className="App">
-        <Header />
         <div className="App-body">
           <div>
             <h2 className="h2 fantomon-title">Fantomon</h2>
