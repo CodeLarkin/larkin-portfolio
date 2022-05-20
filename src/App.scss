@@ -68,9 +68,35 @@ h2 {
   flex-direction: column;
   justify-content: space-between;  // App to top, footer to bottom
 }
+// Div containing Menu panel and main app (not footer)
+.MenuAndApp {
+  display: flex;
+  flex-direction: row;
+}
 // App (router page)
 .App {
   text-align: center;
+}
+.MenuParent {
+  background-color: $vim-black;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  top: 0px; /*100px to give some room for the sidebar heading (without this, absolute position will make the nav overlap)*/
+  left: 0px; /* you can make this zero and add `padding-left: 15px` */
+  min-width: max-content;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: calc(100vh - 40px); // screen height minus padding
+}
+.MenuParent button {
+  color: $vim-white;
+  font-size: large;
+  font-weight: bold;
+  background-color: $vim-black;
+  border: none;
 }
 
 .App-logo {
@@ -119,7 +145,7 @@ h2 {
 .Footer {
   background-color: $vim-green-blue;
   color: $vim-gray;
-  padding: 50px;
+  padding: 25px;
 }
 .Footer > * {
     padding: 10px;
@@ -145,6 +171,12 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.vertical-left {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
 }
 .imagePreview {
     padding: 5px;
