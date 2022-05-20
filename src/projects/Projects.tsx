@@ -5,7 +5,7 @@ function Projects() {
         <div>
           <h2>Projects</h2>
           <p>
-            Click one of my projects below to learn more!
+            Select one of my projects below to learn more!
             <br/>
           </p>
           <div className="vertical-centered">
@@ -15,7 +15,7 @@ function Projects() {
               <Link className="fantomon-title" to="/fantomon">Fantomon</Link>
             </div>
             <p>
-              These are ordered roughly in chronological order, but <b>Fantomon</b> is my largest and most complex Web3 project to date.
+              Be sure to check out <b className="focused">Fantomon</b>! These are listed in chronological order, but <b className="focused">Fantomon</b> is my most elaborate Web3 project to date.
             </p>
           </div>
         </div>

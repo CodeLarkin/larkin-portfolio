@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 import farmgodFantom from '../images/farmgod/fantom.png';
 import farmgodMatic from '../images/farmgod/matic.png';
 
+// Utils
+import { LarkinLink } from '../utils/Links';
+
 // Sub-components
 import Header from '../Header';
 
@@ -24,7 +27,7 @@ function Farmgod() {
               <br/><br/>
               This project was my introduction to Web3 development. I had been playing around with DeFi apps for a few months, while doing CryptoZombies and reading up on Solidity. When summer 2021 began, I decided to finally start building something, and so I started with something that would prove useful in my day-to-day Web3 activities.
               <br/><br/>
-              Check out the Farmgod Dashboard for yourself at <a href="https://farmgod.finance">farmgod.finance</a>, and when you find bugs, keep in mind that this was my first ever Web3 project, and my first ever website &#128540;.
+              Check out the Farmgod Dashboard for yourself at <LarkinLink href="https://farmgod.finance">farmgod.finance</LarkinLink>, and when you find bugs, keep in mind that this was my first ever Web3 project, and my first ever website &#128540;.
               <br/><br/>
             </p>
             <h2>Gallery</h2>

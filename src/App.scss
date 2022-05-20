@@ -147,8 +147,7 @@ h2 {
     align-items: center;
 }
 .imagePreview {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px;
     width: auto;
     max-width: 100%;
     max-height: 500px;
@@ -193,7 +192,10 @@ h2 {
   }
 }
 .pointer {
-    cursor: pointer;
+  cursor: pointer;
+}
+.focused {
+  color: $vim-yellow;
 }
 
 

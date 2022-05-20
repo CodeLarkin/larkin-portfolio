@@ -5,6 +5,9 @@ import { Link } from 'react-router-dom';
 // Images
 import chiri from './images/Chiri-Chiri.jpg';
 
+// Utils
+import { LarkinLink } from './utils/Links';
+
 // Sub-components
 import Header from './Header';
 import Mission from './Mission';
@@ -89,7 +92,7 @@ function Home() {
             <p>
               I love Vim &#9829;
               <br/><br/>
-              The colors and style of this website are inspired by my favorite Vim theme "<a href="https://github.com/junegunn/seoul256.vim">seoul256.vim</a>".
+              The colors and style of this website are inspired by my favorite Vim theme "<LarkinLink href="https://github.com/junegunn/seoul256.vim">seoul256.vim</LarkinLink>".
               <br/><br/>
             </p>
 
@@ -97,7 +100,7 @@ function Home() {
             <p>
               My hobbies include reading and audiobooks, rock climbing, anime and video games
               <br/><br/>
-              My favorite book series is <a href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</a>, by Brandon Sanderson.
+              My favorite book series is <LarkinLink href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</LarkinLink>, by Brandon Sanderson.
               <br/><br/>
               My favorite anime is Fullmetal Alchemist.
               <br/><br/>
@@ -110,9 +113,9 @@ function Home() {
             <h2>The Pseudonym "Larkin" </h2>
             <img src={chiri} alt="Chiri-Chiri"/>
             <p>
-              "Larkin" are little flying crustaceans in my favorite fantasy series, <a href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</a>, by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
+              "Larkin" are little flying crustaceans in my favorite fantasy series, <LarkinLink href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</LarkinLink>, by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
               <br/><br/>
-              I cannot go into further detail about why I chose the name Larkin without risking spoilers, but I encourage you to dive into <a href="https://www.brandonsanderson.com/">Sanderson's Cosmere</a>.
+              I cannot go into further detail about why I chose the name Larkin without risking spoilers, but I encourage you to dive into <LarkinLink href="https://www.brandonsanderson.com/">Sanderson's Cosmere</LarkinLink>.
               <br/><br/>
               The logo at the top of this site is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens can lend us.
               <br/><br/>

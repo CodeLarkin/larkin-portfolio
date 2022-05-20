@@ -6,6 +6,9 @@ import { Link } from 'react-router-dom';
 import fantomonHome from '../images/fantomon/home.png';
 import fantomon1 from '../images/fantomon/fantomon.svg';
 
+// Utils
+import { LarkinLink, LarkinRouterLink } from '../utils/Links';
+
 // Sub-components
 import Header from '../Header';
 
@@ -22,8 +25,8 @@ function Fantomon() {
               <br/><br/>
               I am the sole developer for Fantomon and am responsible for the complex ecosystem of smart contracts, as well as the elaborate retro-style React website. This is the largest Web3 project I have worked on as of May 2022.
               <br/><br/>
-              Check out the Fantomon website at <a href="https://fantomon.net">Fantomon.net</a>,
-              or dig deeper by browsing our <a href="https://fmons.gitbook.io">docs</a>.
+              Check out the Fantomon website at <LarkinLink href="https://fantomon.net">Fantomon.net</LarkinLink>,
+              or dig deeper by browsing our <LarkinLink href="https://fmons.gitbook.io">docs</LarkinLink>.
               <br/><br/>
             </p>
             <h2>Gallery</h2>
@@ -31,7 +34,7 @@ function Fantomon() {
               <img className="imagePreview" src={fantomonHome} alt="Fantomon Homescreen"/>
               <img className="imagePreview" src={fantomon1} alt="Fantomon #1"/>
               <br/><br/>
-              View the <Link to="/fantomon-gallery">Fantomon Gallery</Link> to get a better preview of the website and cards.
+              View the <LarkinRouterLink to="/fantomon-gallery">Fantomon Gallery</LarkinRouterLink> to get a better preview of the website and cards.
               <br/><br/>
             </p>
 
@@ -41,7 +44,7 @@ function Fantomon() {
               <br/><br/>
               Fantomons are bizarre creatures from another realm that have started appearing in our universe through some form of "gateway"! We don't know how or why they are here, nor do we understand where they came from. Trainers collect and study Fantomons to improve our understanding of them, maintain the delicate balance and prevent catastrophe.
               <br/><br/>
-              <a href="https://fantomon.net">Fantomons are still minting!</a>
+              <LarkinLink href="https://fantomon.net">Fantomons are still minting!</LarkinLink>
               <br/><br/>
             </p>
 
@@ -50,7 +53,7 @@ function Fantomon() {
             <p>
               Cards are represented by ERC721 non-fungible tokens. All card images are stored on-chain via their base64 encodings. Token URIs are formed on-chain in Solidity by generating an SVG that overlays dynamic card stats onto encoded card images.
               <br/><br/>
-              This allows the cards to merge dynamic on-chain data like XP, HP and other stats with art that was originally made off-chain. My inspiration for on-chain SVGs came from <a href="https://www.lootproject.com/">Loot (for Adventurers)</a> as well as <a href="https://eyeoftruth.io/alchemists">Maxus' Alchemists</a>. My latest code for these Solidity-generated card visualizations can be found in the <a href="https://ftmscan.com/address/0x62332cf40203c725be736ff8f32f40a9d3af66fb#code">FantomonGraphics</a> contract.
+              This allows the cards to merge dynamic on-chain data like XP, HP and other stats with art that was originally made off-chain. My inspiration for on-chain SVGs came from <LarkinLink href="https://www.lootproject.com/">Loot (for Adventurers)</LarkinLink> as well as <LarkinLink href="https://eyeoftruth.io/alchemists">Maxus' Alchemists</LarkinLink>. My latest code for these Solidity-generated card visualizations can be found in the <LarkinLink href="https://ftmscan.com/address/0x62332cf40203c725be736ff8f32f40a9d3af66fb#code">FantomonGraphics</LarkinLink> contract.
               <br/><br/>
             </p>
 
@@ -93,9 +96,9 @@ function Fantomon() {
             </p>
 
             <h2>Source Code</h2>
-            <a href="https://fmons.gitbook.io/fantomon/welcome/contracts">Fantomon Solidity Contracts</a> developed using Hardhat.
+            <LarkinLink href="https://fmons.gitbook.io/fantomon/welcome/contracts">Fantomon Solidity Contracts</LarkinLink> developed using Hardhat.
             <br/><br/>
-            <a href="https://github.com/CodeLarkin/fantomon-website">Fantomon Website</a> built with React and Ethers JS.
+            <LarkinLink href="https://github.com/CodeLarkin/fantomon-website">Fantomon Website</LarkinLink> built with React and Ethers JS.
             <br/><br/>
 
           </div>

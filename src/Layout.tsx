@@ -1,10 +1,15 @@
+// External packages
 import React from 'react';
-
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
+// App style
 import './App.scss';
 
-import ScrollToTop from './ScrollToTop';
+// Utils
+import ScrollToTop from './utils/ScrollToTop';
+import { LarkinLink } from './utils/Links';
+
+// Sub-components
 import Home from './Home';
 import Fantomon from './projects/Fantomon';
 import FantomonGallery from './projects/FantomonGallery';
@@ -29,13 +34,13 @@ function Layout() {
           </Routes>
         </BrowserRouter>
         <div className="Footer">
-          <a href="https://twitter.com/CodeLarkin">Twitter</a>
-          <a href="https://github.com/CodeLarkin">GitHub</a>
-          <a href="https://fantomon.net">Fantomon</a>
+          <LarkinLink href="https://twitter.com/CodeLarkin">Twitter</LarkinLink>
+          <LarkinLink href="https://github.com/CodeLarkin">GitHub</LarkinLink>
+          <LarkinLink href="https://fantomon.net">Fantomon</LarkinLink>
           <br/><br/>
           Larkin#5716 @ Discord
           <br/><br/>
-          <a href="https://github.com/CodeLarkin/larkin-portfolio">Website source code</a>
+          <LarkinLink href="https://github.com/CodeLarkin/larkin-portfolio">Website source code (React & Typescript)</LarkinLink>
         </div>
       </div>
     );
