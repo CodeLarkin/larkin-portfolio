@@ -1,7 +1,6 @@
 // External packages
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-//import {isMobile} from 'react-device-detect';
 
 // App style
 import './App.scss';
@@ -24,7 +23,6 @@ import AboutMe from './AboutMe';
 function Layout() {
     const isMobile = window.matchMedia("only screen and (max-width: 800px)").matches;
     const [menuOpen, setMenuOpen] = React.useState(!isMobile);
-    console.log(`isMobile: ${isMobile}, menuOpen: ${menuOpen}, isMobile && !menuOpen: ${isMobile && !menuOpen}`);
 
     return (
       <div className="Layout">
