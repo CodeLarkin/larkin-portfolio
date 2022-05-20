@@ -18,7 +18,6 @@ function Farmgod() {
       <div className="App">
         <Header />
         <div className="App-body">
-          <div>
             <h2 className="h1 farmgod-title"><span>FARMGOD DASHBOARD</span></h2>
             <p>
               The Farmgod Dashboard aggregates yield-farming / staking pools from multiple protocols into a single dashboard. It allows you to harvest farm rewards across many protocols all at once and even compound rewards. It also displays balances for many ecosystem tokens in a categorized wallet panel.
@@ -63,7 +62,6 @@ function Farmgod() {
               Since this was my first ever website, I learned quite a bit from Maxus, a friend of mine, who helped me with the styling and animations, and introduced me to React.
               <br/><br/>
             </p>
-          </div>
         </div>
       </div>
     );

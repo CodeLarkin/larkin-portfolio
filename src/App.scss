@@ -68,16 +68,16 @@ h2 {
   flex-direction: column;
   justify-content: space-between;  // App to top, footer to bottom
 }
+
 // Div containing Menu panel and main app (not footer)
 .MenuAndApp {
   display: flex;
   flex-direction: row;
 }
-// App (router page)
-.App {
-  text-align: center;
-}
+
+// Menu
 .MenuParent {
+  z-index: 2;
   background-color: $vim-black;
   position: sticky;
   display: flex;
@@ -91,12 +91,26 @@ h2 {
   padding-bottom: 20px;
   height: calc(100vh - 40px); // screen height minus padding
 }
-.MenuParent button {
+.MenuRoutes button {
   color: $vim-white;
   font-size: large;
   font-weight: bold;
   background-color: $vim-black;
   border: none;
+}
+.MenuToggleButton {
+  color: $vim-white;
+  font-size: xxx-large;
+  font-weight: bold;
+  background-color: $vim-black;
+  border: none;
+}
+
+// App (router page)
+.App {
+  width: 100%;
+  text-align: center;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -163,7 +177,6 @@ h2 {
 ////////////////////////////////////////////////////////////////////////////////
 .projects {
     background-color: $vim-black;
-    width: fit-width;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -181,28 +194,28 @@ h2 {
 .imagePreview {
     padding: 5px;
     width: auto;
-    max-width: 100%;
+    max-width: 80%;
     max-height: 500px;
 }
 .galleryImage {
     padding-top: 20px;
     padding-bottom: 20px;
     width: auto;
-    max-width: 100%;
+    max-width: 80%;
     max-height: 500px;
 }
 .galleryImageLong {
     padding-top: 20px;
     padding-bottom: 20px;
     width: auto;
-    max-width: 100%;
+    max-width: 80%;
     max-height: 1000px;
 }
 .galleryImageXLong {
     padding-top: 20px;
     padding-bottom: 20px;
     width: auto;
-    max-width: 100%;
+    max-width: 80%;
     height: 1430px;
 }
 @media only screen and (max-width: $max-mobile-width) {
@@ -248,7 +261,7 @@ $lemon-glacier: #fbff12ff;
   background: linear-gradient(90deg, $winter-sky, $lemon-glacier);
 }
 .farmgod-title {
-  font-size: 1.3rem;
+  font-size: calc(10px + 1vmin);
   letter-spacing: 5px;
   text-decoration: none;
   @include minorMargin;
@@ -267,13 +280,13 @@ $lemon-glacier: #fbff12ff;
   @include noPadding;
 }
 .h1.farmgod-title {
-    font-size: 2.5rem;
+  font-size: calc(10px + 4vmin);
 }
 ////////////////////////////////////////////////////////////////////////////////
 // Cult NFTs
 ////////////////////////////////////////////////////////////////////////////////
 .cult-title {
-  font-size: 3.0rem;
+  font-size: calc(10px + 4vmin);
   color: whitesmoke;
   font-family: sans-serif;
   text-decoration: none;
@@ -284,7 +297,7 @@ $lemon-glacier: #fbff12ff;
   color: whitesmoke;
 }
 .h1.cult-title {
-    font-size: 3rem;
+  font-size: calc(10px + 4vmin);
 }
 ////////////////////////////////////////////////////////////////////////////////
 // Fantomon Styles
@@ -299,7 +312,7 @@ $fantomon-yellow: #E9AB5F;
 }
 .fantomon-title {
   color: $fantomon-yellow;
-  font-size: 2.0rem;
+  font-size: calc(10px + 3vmin);
   text-shadow: .12rem .12rem #cdfddf;
   background-color: transparent;
   display: flex;
@@ -315,7 +328,7 @@ $fantomon-yellow: #E9AB5F;
   color: $fantomon-yellow;
 }
 .h1.fantomon-title {
-    font-size: 2.5rem;
+  font-size: calc(10px + 3vmin);
 }
 
 

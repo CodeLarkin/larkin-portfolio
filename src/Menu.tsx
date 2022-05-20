@@ -21,17 +21,17 @@ export default function Menu(props: Props) {
     const routes: Record<string, string> = {
         "/"                 : "\u{1F3E0} Home",
         "/farmgod"          : "\u{2728} Farmgod",
-        "/cult"             : "\u{1f56f}\u{fe0f} Cult",
+        "/cult"             : "\u{1f56f}\u{fe0f} Cult NFTs",
         "/fantomon"         : "\u{1F47E} Fantomon",
         "/fantomon-gallery" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Gallery",
         "/resume"           : "\u{1F4C3} Resume",
-        "/about"            : "\u{1F4C3} About Me",
+        "/about"            : "\u{1F92A} About Me",
     };
 
 
     const RouterLinks = (props: RouterLinksProps) => {
         return (
-          <div>
+          <div className="MenuRoutes">
             {
               Object.keys(routes).map((route: string) =>
                 <div key={"menu-route-" + route}>

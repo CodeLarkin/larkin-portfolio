@@ -29,13 +29,13 @@ function Layout() {
             <div className="MenuParent">
               {menuOpen ?
               <div>
-                <button onClick={() => setMenuOpen(false)} className="ClosedMenuButton">
-                  {"<"}
+                <button onClick={() => setMenuOpen(false)} className="MenuToggleButton">
+                  &laquo;
                 </button>
               </div>
               :
               <div>
-                <button onClick={() => setMenuOpen(true)} className="OpenMenuButton">
+                <button onClick={() => setMenuOpen(true)} className="MenuToggleButton">
                   &#9776;
                 </button>
               </div>
@@ -43,7 +43,7 @@ function Layout() {
               <Menu active={menuOpen} close={() => setMenuOpen(false)}/>
             </div>
             <ScrollToTop/>
-              <div>
+              <div className="App">
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route index element={<Home />} />
