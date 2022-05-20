@@ -19,7 +19,7 @@ function Cult() {
         <Header />
         <div className="App-body">
           <div>
-            <h1 className="h1 cult-title">Cult NFTs</h1>
+            <h2 className="h2 cult-title">Cult NFTs</h2>
             <p>
               &#128367;&#65039; Join the Cult &#128367;&#65039;
               <br/><br/>

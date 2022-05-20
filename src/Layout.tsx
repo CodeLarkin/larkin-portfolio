@@ -47,10 +47,10 @@ function Layout() {
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route index element={<Home />} />
-                  <Route path="/farmgod"          element={<Farmgod />} />
-                  <Route path="/cult"             element={<Cult />} />
                   <Route path="/fantomon"         element={<Fantomon />} />
                   <Route path="/fantomon-gallery" element={<FantomonGallery />} />
+                  <Route path="/cult"             element={<Cult />} />
+                  <Route path="/farmgod"          element={<Farmgod />} />
                   <Route path="/resume"           element={<AboutMe  />} />
                   <Route path="/about"            element={<AboutMe  />} />
                 </Routes>

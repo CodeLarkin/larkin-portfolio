@@ -25,15 +25,18 @@ $vim-yellow: #FFD787;
 // Common mixins
 ////////////////////////////////////////////////////////////////////////////////
 @mixin noMarginNoPadding {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 @mixin noPadding {
-    padding: 0px;
+  padding: 0px;
 }
 @mixin minorMargin {
-    margin-top: 25px;
-    margin-bottom: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+@mixin borderRadius {
+  border-radius: 15px;
 }
 
 
@@ -175,65 +178,97 @@ h2 {
 ////////////////////////////////////////////////////////////////////////////////
 // Sub-component and per-element styles
 ////////////////////////////////////////////////////////////////////////////////
-.projects {
-    background-color: $vim-black;
-    padding-left: 25px;
-    padding-right: 25px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ProjectCard {
+  background-color: $vim-black;
+  width: 450px;
+  height: 750px;
+  padding: 25px;
+  margin: 25px;
+  color: $vim-white;
+  text-decoration: none;
+  justify-content: space-between;
+  @include borderRadius;
+}
+.ProjectCard:visited {
+  color: $vim-white;
 }
 .vertical-centered {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .vertical-left {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+.smallImagePreview {
+  padding: 5px;
+  width: auto;
+  max-height: 159px;
+  @include borderRadius;
+}
+.mediumImagePreview {
+  padding: 5px;
+  width: auto;
+  max-height: 200px;
+  @include borderRadius;
+}
+.mediumLargeImagePreview {
+  padding: 5px;
+  width: auto;
+  max-height: 300px;
+  @include borderRadius;
 }
 .imagePreview {
-    padding: 5px;
-    width: auto;
-    max-width: 80%;
-    max-height: 500px;
+  padding: 5px;
+  width: auto;
+  max-height: 500px;
+  @include borderRadius;
 }
 .galleryImage {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: auto;
-    max-width: 80%;
-    max-height: 500px;
+  margin: 20px;
+  width: auto;
+  max-width: 80%;
+  max-height: 500px;
+  @include borderRadius;
 }
 .galleryImageLong {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: auto;
-    max-width: 80%;
-    max-height: 1000px;
+  margin: 20px;
+  width: auto;
+  max-width: 80%;
+  max-height: 1000px;
+  @include borderRadius;
 }
 .galleryImageXLong {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: auto;
-    max-width: 80%;
-    height: 1430px;
+  margin: 20px;
+  width: auto;
+  max-width: 80%;
+  height: 1430px;
+  @include borderRadius;
 }
 @media only screen and (max-width: $max-mobile-width) {
   .imagePreview {
-      max-width: 200px;
-      height:auto;
+    max-width: 200px;
+    height:auto;
   }
   .galleryImage {
-      max-width: 400px;
-      height:auto;
+    max-width: 400px;
+    height:auto;
   }
   .galleryImageLong {
-      max-width: 400px;
-      height:auto;
+    max-width: 400px;
+    height:auto;
   }
   .galleryImageXLong {
-      max-width: 400px;
-      height:auto;
+    max-width: 400px;
+    height:auto;
   }
 }
 .pointer {
@@ -279,8 +314,8 @@ $lemon-glacier: #fbff12ff;
   @include minorMargin;
   @include noPadding;
 }
-.h1.farmgod-title {
-  font-size: calc(10px + 4vmin);
+.h2.farmgod-title {
+  font-size: calc(10px + 3vmin);
 }
 ////////////////////////////////////////////////////////////////////////////////
 // Cult NFTs
@@ -296,7 +331,7 @@ $lemon-glacier: #fbff12ff;
 .cult-title:visited {
   color: whitesmoke;
 }
-.h1.cult-title {
+.h2.cult-title {
   font-size: calc(10px + 4vmin);
 }
 ////////////////////////////////////////////////////////////////////////////////
@@ -327,7 +362,7 @@ $fantomon-yellow: #E9AB5F;
 .fantomon-title:visited {
   color: $fantomon-yellow;
 }
-.h1.fantomon-title {
+.h2.fantomon-title {
   font-size: calc(10px + 3vmin);
 }
 

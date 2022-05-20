@@ -18,7 +18,7 @@ function Farmgod() {
       <div className="App">
         <Header />
         <div className="App-body">
-            <h2 className="h1 farmgod-title"><span>FARMGOD DASHBOARD</span></h2>
+            <h2 className="h2 farmgod-title"><span>FARMGOD DASHBOARD</span></h2>
             <p>
               The Farmgod Dashboard aggregates yield-farming / staking pools from multiple protocols into a single dashboard. It allows you to harvest farm rewards across many protocols all at once and even compound rewards. It also displays balances for many ecosystem tokens in a categorized wallet panel.
               <br/><br/>

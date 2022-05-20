@@ -22,8 +22,9 @@ function FantomonGallery() {
     return (
       <div className="App">
         <Header />
-        <div className="App-body vertical-centered">
-            <h2 className="fantomon-title"><span>Fantomon Gallery</span></h2>
+        <div className="App-body">
+          <h2 className="fantomon-title"><span>Fantomon Gallery</span></h2>
+          <div className="cards">
             <img className="galleryImage" src={fantomonHome} alt="Fantomon Homescreen"/>
             <img className="galleryImage" src={trainer2} alt="Trainer #2"/>
             <img className="galleryImage" src={fantomon1} alt="Fantomon #1"/>
@@ -35,6 +36,7 @@ function FantomonGallery() {
             <img className="galleryImage" src={quasar} alt="Quasar"/>
             <img className="galleryImage" src={healingRifts} alt="Healing Rifts"/>
             <img className="galleryImage" src={journey} alt="Journey"/>
+          </div>
         </div>
       </div>
     );
