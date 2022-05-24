@@ -16,9 +16,8 @@ function Cult() {
         <div className="App-body">
           <section>
             <h2 className="h2 cult-title">The Cult</h2>
+            <h3>Join the Cult &#128367;&#65039;</h3>
             <p>
-              &#128367;&#65039; Join the Cult &#128367;&#65039;
-              <br/><br/>
               The Cult began as meme in the Farmgod community, its essence aligned with the spooky theme of the Fantom ecosystem. Over time, it turned into an entire community of its own led by legendary artist, graphic designer and community-builder Funeral (@yolofinancial), with some help from me.
               <br/><br/>
               In September of 2021, I approached my friend Funeral and let him know that I would be happy to help launch the first Cult NFTs.
@@ -28,25 +27,20 @@ function Cult() {
               The Cult remains a thriving community where builders, creators, and degens congregate to support one another and "defend the realm" that is the Fantom ecosystem.
               <br/><br/>
             </p>
-            <h2>Gallery</h2>
-            <p>
-              <u>Skullys... Join the Cult.</u>
-              <br/>
+            <h3>Gallery</h3>
+            <div className="vertical-centered">
+              Skullys... Join the Cult.
               <img className="galleryImage" src={skullysMint} alt="SKULLYS Mint"/>
-              <br/>
-              <u>My Skully PFP</u>
-              <br/>
+              My Skully PFP
               <img className="galleryImage" src={skully2} alt="SKULLY 2"/>
-              <br/>
-              <u>My Ghost Companion</u>
-              <br/>
+              My Ghost Companion
               <img className="galleryImage" src={ghostly92} alt="Ghostly 92"/>
               <br/>
-              Ghost Companions are still minting in the <LarkinLink href="https://ghostgarden.io">Ghost Gharden</LarkinLink> for any lonely Summoners out there.
-              <br/><br/>
-            </p>
+            </div>
+            Ghost Companions are still minting in the <LarkinLink href="https://ghostgarden.io">Ghost Gharden</LarkinLink> for any lonely Summoners out there.
+            <br/><br/>
 
-            <h2>Let's Get Technical</h2>
+            <h3>Let's Get Technical</h3>
             <p>
               The Skullys contract was the first Solidity contract I ever deployed to a mainnet (other than an <LarkinLink href="https://ftmscan.com/address/0x623470fe45d3AF9C53Aa9333C6a6417385130d73#code">experimental helper contract</LarkinLink> I wrote to help aggregate information for Maxus' Alchemists). In most ways it is just a basic ERC721Enumerable, but it has a cool additional feature.
               <br/><br/>
@@ -62,7 +56,7 @@ function Cult() {
               <br/><br/>
             </p>
 
-            <h2>Source Code</h2>
+            <h3>Source Code</h3>
 
             <h3>GitHub</h3>
             <LarkinLink href="https://github.com/CodeLarkin/skullys-contracts">Skullys Contracts and Hardhat Tests</LarkinLink>

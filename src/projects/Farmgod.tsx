@@ -26,23 +26,20 @@ function Farmgod() {
               Check out the Farmgod Dashboard for yourself at <LarkinLink href="https://farmgod.finance">farmgod.finance</LarkinLink>, and when you find bugs, keep in mind that this was my first ever Web3 project, and my first ever website &#128540;.
               <br/><br/>
             </p>
-            <h2>Gallery</h2>
-            <p className="cards">
+            <h3>Gallery</h3>
+            <div className="cards">
               <div className="vertical-centered twoCardImagePreview">
-              <u>Farmgod Dashboard on Fantom</u>
-              <br/>
-              <img className="wideImagePreview" src={farmgodFantom} alt="Farmgod Fantom"/>
+                Farmgod Dashboard on Fantom
+                <img className="wideImagePreview" src={farmgodFantom} alt="Farmgod Fantom"/>
               </div>
               <div className="vertical-centered twoCardImagePreview">
-              <br/>
-              <u>Farmgod Dashboard on Polygon</u>
-              <br/>
-              <img className="wideImagePreview" src={farmgodMatic} alt="Farmgod Matic"/>
+                Farmgod Dashboard on Polygon
+                <img className="wideImagePreview" src={farmgodMatic} alt="Farmgod Matic"/>
               </div>
               <br/><br/>
-            </p>
+            </div>
 
-            <h2>About The Dashboard</h2>
+            <h3>About The Dashboard</h3>
             <p>
               As I dove further into DeFi, I found myself spending too much time harvesting and compounding every day. The Farmgod Dashboard seemed like the perfect opportunity to learn Web3/EVM development while also increasing my efficiency.
               <br/><br/>
@@ -52,7 +49,7 @@ function Farmgod() {
               <br/><br/>
             </p>
 
-            <h2>Let's Get Technical</h2>
+            <h3>Let's Get Technical</h3>
             <p>
               This project taught me how to interact with EVM contracts via Web3.js (and later Ethers.js) and make use of "multicalls" when making many view-only requests. As my first ever website, this also served as my introduction to React.
               <br/><br/>

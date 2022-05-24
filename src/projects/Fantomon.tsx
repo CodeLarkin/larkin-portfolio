@@ -26,7 +26,7 @@ function Fantomon() {
               or dig deeper by browsing our <LarkinLink href="https://fmons.gitbook.io">docs</LarkinLink>.
               <br/><br/>
             </p>
-            <h2>Gallery</h2>
+            <h3>Gallery</h3>
             <div className="cards">
               <img className="wideImagePreview" src={fantomonHome} alt="Fantomon Homescreen"/>
               <div className="horizontal-centered twoCardImagePreview">
@@ -40,7 +40,7 @@ function Fantomon() {
               <br/><br/>
             </p>
 
-            <h2>About The Game</h2>
+            <h3>About The Game</h3>
             <p>
               Fantomon is a Play-to-Earn Trading Card Game that merges a retro game style with DeFi and Play-to-Earn. The entire game is built on-chain on the Fantom Opera network. All cards, items and resources are tokens on Fantom!
               <br/><br/>
@@ -50,7 +50,7 @@ function Fantomon() {
               <br/><br/>
             </p>
 
-            <h2>Let's Get Technical</h2>
+            <h3>Let's Get Technical</h3>
             <h3>Dymically Generated Card Images</h3>
             <p>
               Cards are represented by ERC721 non-fungible tokens. All card images are stored on-chain via their base64 encodings. Token URIs are formed on-chain in Solidity by generating an SVG that overlays dynamic card stats onto encoded card images.
@@ -97,7 +97,7 @@ function Fantomon() {
               <br/><br/>
             </p>
 
-            <h2>Source Code</h2>
+            <h3>Source Code</h3>
             <LarkinLink href="https://fmons.gitbook.io/fantomon/welcome/contracts">Fantomon Solidity Contracts</LarkinLink> developed using Hardhat.
             <br/><br/>
             <LarkinLink href="https://github.com/CodeLarkin/fantomon-website">Fantomon Website</LarkinLink> built with React and Ethers JS.

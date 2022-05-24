@@ -317,7 +317,7 @@ section {
   max-height: 200px;
   @include borderRadius;
 }
-.mediumLargeImagePreview {
+.projectImagePreview {
   padding: 5px;
   width: auto;
   max-height: 300px;
@@ -362,22 +362,6 @@ section {
   height: 1430px;
   @include borderRadius;
 }
-@media only screen and (max-width: 650px) {
-  .wideImagePreview {
-    width: 370px;
-  }
-  .cardImagePreview {
-    width: 180px;
-  }
-}
-@media only screen and (max-width: 400px) {
-  .wideImagePreview {
-    width: 250px;
-  }
-  .cardImagePreview {
-    width: 120px;
-  }
-}
 @media only screen and (max-width: $max-mobile-width) {
   .wideImagePreview {
     max-height: 400px;
@@ -399,6 +383,54 @@ section {
     height:auto;
   }
 }
+@media only screen and (max-width: 650px) {
+  .wideImagePreview {
+    width: 370px;
+  }
+  .cardImagePreview {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .ProjectCard {
+    width: 220px;
+    height: auto;
+    padding: 15px;
+    margin: 15px;
+  }
+  .ProjectCard h3 {
+    margin: 10px;
+  }
+  .ProjectCard p {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .projectImagePreview {
+    max-height: 200px;
+    @include borderRadius;
+  }
+  .wideImagePreview {
+    width: 250px;
+  }
+  .cardImagePreview {
+    width: 120px;
+  }
+  .galleryImage {
+    max-width: 250px;
+    height:auto;
+  }
+  .galleryImageLong {
+    max-width: 250px;
+    height:auto;
+  }
+  .galleryImageXLong {
+    max-width: 250px;
+    height:auto;
+  }
+}
+
 .pointer {
   cursor: pointer;
 }

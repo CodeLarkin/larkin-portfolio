@@ -15,7 +15,14 @@ function AboutMe() {
         <div className="App-body">
           <div>
             <section>
-              <h2>Philosophy</h2>
+              <h2>About Me</h2>
+              <p>
+                I am an engineer with 6 years of work experience. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe made me truly appreciate the global nature of this space and how it can bring people together.
+                <br/><br/>
+                I had already been passionate about the Web3 space, but my experience in 2021 as a developer and community leader for Fantomon compounded my passion.
+                <br/><br/>
+              </p>
+              <h3>Philosophy</h3>
               <p>
                 Time is our most valuable resource. I spend my time where my passions are and with the people I love.
                 <br/><br/>
@@ -31,15 +38,7 @@ function AboutMe() {
                 <br/><br/>
               </p>
 
-              <h2>About Me</h2>
-              <p>
-                I am an engineer with 6 years of work experience. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe made me truly appreciate the global nature of this space and how it can bring people together.
-                <br/><br/>
-                I had already been passionate about the Web3 space, but my experience in 2021 as a developer and community leader for Fantomon compounded my passion.
-                <br/><br/>
-              </p>
-
-              <h2>Before Web3</h2>
+              <h3>Before Web3</h3>
               <p>
                 Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to frameworks written in Python for development targeting embedded systems.
                 <br/><br/>
@@ -49,7 +48,7 @@ function AboutMe() {
                 <br/><br/>
               </p>
 
-              <h2>Vim</h2>
+              <h3>Vim</h3>
               <p>
                 I love Vim &#9829;
                 <br/><br/>
@@ -57,7 +56,7 @@ function AboutMe() {
                 <br/><br/>
               </p>
 
-              <h2>Hobbies</h2>
+              <h3>Hobbies</h3>
               <p>
                 My hobbies include reading and audiobooks, rock climbing, anime and video games
                 <br/><br/>
@@ -71,7 +70,7 @@ function AboutMe() {
                 <br/><br/>
               </p>
 
-              <h2>The Pseudonym "Larkin" </h2>
+              <h3>The Pseudonym "Larkin" </h3>
               <div className="vertical-centered">
                 <img src={chiri} alt="Chiri-Chiri"/>
               </div>

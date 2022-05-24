@@ -20,7 +20,7 @@ function Projects() {
             <Link className="ProjectCard" to="/fantomon">
               <h3>Fantomon</h3>
               <div className="vertical-centered">
-                <img className="mediumLargeImagePreview" src={trainer} alt="Trainer"/>
+                <img className="projectImagePreview" src={trainer} alt="Trainer"/>
               </div>
               <p>
                 GameFi trading-card-game built on Fantom.
@@ -32,7 +32,7 @@ function Projects() {
             <Link className="ProjectCard" to="/cult">
               <h3>The Cult</h3>
               <div className="vertical-centered">
-                <img className="mediumLargeImagePreview" src={cult} alt="Cult"/>
+                <img className="projectImagePreview" src={cult} alt="Cult"/>
               </div>
               <p>
                 Join the Cult &#128367;&#65039;
@@ -44,7 +44,7 @@ function Projects() {
             <Link className="ProjectCard" to="/farmgod">
               <h3>FARMGOD</h3>
               <div className="vertical-centered">
-                <img className="mediumLargeImagePreview" src={farmgod} alt="Farmgod"/>
+                <img className="projectImagePreview" src={farmgod} alt="Farmgod"/>
               </div>
               <p>
                 Community of cross-chain DeFi degens.
