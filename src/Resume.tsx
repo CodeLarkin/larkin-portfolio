@@ -15,7 +15,7 @@ function Resume() {
               <h2>Credentials</h2>
               <ul>
                 <li>Master of Science in Electrical and Computer Engineering</li>
-                <li>6 years of total Software Engineering work experience</li>
+                <li>6 years of Software Engineering industry experience</li>
                 <li>{">"}1 year of engineering experience in Web3</li>
                 <li>Co-founder of multiple Web3 projects and communities</li>
                 <br/>
