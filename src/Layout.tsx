@@ -24,6 +24,7 @@ function Layout() {
     const isMobile = window.matchMedia("only screen and (max-width: 800px)").matches;
     const [menuOpen, setMenuOpen] = React.useState(!isMobile);
 
+
     return (
       <div className="Layout">
         <BrowserRouter>
@@ -38,7 +39,9 @@ function Layout() {
               :
               <div>
                 <button onClick={() => setMenuOpen(true)} className={(isMobile && !menuOpen) ? "LonelyMenuButton" : "MenuToggleButton"}>
-                  &#9776;
+                  <div className="MenuIconLine"/>
+                  <div className="MenuIconLine"/>
+                  <div className="MenuIconLine"/>
                 </button>
               </div>
               }
