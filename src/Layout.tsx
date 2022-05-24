@@ -17,6 +17,7 @@ import Fantomon from './projects/Fantomon';
 import FantomonGallery from './projects/FantomonGallery';
 import Cult from './projects/Cult';
 import Farmgod from './projects/Farmgod';
+import Resume from './Resume';
 import AboutMe from './AboutMe';
 
 
@@ -60,7 +61,7 @@ function Layout() {
                 <Route path="/fantomon-gallery" element={<FantomonGallery />} />
                 <Route path="/cult"             element={<Cult />} />
                 <Route path="/farmgod"          element={<Farmgod />} />
-                <Route path="/resume"           element={<AboutMe  />} />
+                <Route path="/resume"           element={<Resume  />} />
                 <Route path="/about"            element={<AboutMe  />} />
               </Routes>
               <div className="Footer">

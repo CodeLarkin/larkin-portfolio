@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 // Images
 import fantomonHome from '../images/fantomon/home.png';
 import fantomon1 from '../images/fantomon/fantomon.svg';
+import trainer2 from '../images/fantomon/trainer.svg';
 
 // Utils
 import { LarkinLink, LarkinRouterLink } from '../utils/Links';
@@ -14,7 +15,7 @@ function Fantomon() {
     return (
       <div className="App">
         <div className="App-body">
-          <div>
+          <section>
             <h2 className="h2 fantomon-title">Fantomon</h2>
             <p>
               This is a passion project of mine that begun in September 2021. I work on this project with cofounder and artist Water (@RiverBusy) who had the original idea for the game.
@@ -26,9 +27,14 @@ function Fantomon() {
               <br/><br/>
             </p>
             <h2>Gallery</h2>
+            <div className="cards">
+              <img className="wideImagePreview" src={fantomonHome} alt="Fantomon Homescreen"/>
+              <div className="horizontal-centered twoCardImagePreview">
+                <img className="cardImagePreview" src={trainer2} alt="Trainer #2"/>
+                <img className="cardImagePreview" src={fantomon1} alt="Fantomon #1"/>
+              </div>
+            </div>
             <p>
-              <img className="imagePreview" src={fantomonHome} alt="Fantomon Homescreen"/>
-              <img className="imagePreview" src={fantomon1} alt="Fantomon #1"/>
               <br/><br/>
               View the <LarkinRouterLink to="/fantomon-gallery">Fantomon Gallery</LarkinRouterLink> to get a better preview of the website and cards.
               <br/><br/>
@@ -97,7 +103,7 @@ function Fantomon() {
             <LarkinLink href="https://github.com/CodeLarkin/fantomon-website">Fantomon Website</LarkinLink> built with React and Ethers JS.
             <br/><br/>
 
-          </div>
+          </section>
         </div>
       </div>
     );

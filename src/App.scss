@@ -317,6 +317,18 @@ section {
   max-height: 300px;
   @include borderRadius;
 }
+.wideImagePreview {
+  margin: 15px;
+  padding: 5px;
+  width: 560px;
+  height: auto;
+  @include borderRadius;
+}
+.cardImagePreview {
+  padding: 5px;
+  width: 275px;
+  @include borderRadius;
+}
 .imagePreview {
   padding: 5px;
   width: auto;
@@ -344,9 +356,28 @@ section {
   height: 1430px;
   @include borderRadius;
 }
+@media only screen and (max-width: 650px) {
+  .wideImagePreview {
+    width: 370px;
+  }
+  .cardImagePreview {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .wideImagePreview {
+    width: 250px;
+  }
+  .cardImagePreview {
+    width: 120px;
+  }
+}
 @media only screen and (max-width: $max-mobile-width) {
+  .wideImagePreview {
+    max-height: 400px;
+  }
   .imagePreview {
-    max-width: 200px;
+    max-width: 195px;
     height:auto;
   }
   .galleryImage {

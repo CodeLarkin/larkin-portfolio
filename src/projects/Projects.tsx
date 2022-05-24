@@ -37,7 +37,7 @@ function Projects() {
               <p>
                 Join the Cult &#128367;&#65039;
                 <br/><br/>
-                A community of builders, creators, and degens.
+                Community of builders, creators, and degens.
               </p>
             </Link>
 
@@ -47,9 +47,9 @@ function Projects() {
                 <img className="mediumLargeImagePreview" src={farmgod} alt="Farmgod"/>
               </div>
               <p>
-                Multi-protocol yield farming dashboard.
+                Community of cross-chain DeFi degens.
                 <br/><br/>
-                Harvest all your yields at once!
+                Multi-protocol yield farming dashboard.
               </p>
             </Link>
           </div>

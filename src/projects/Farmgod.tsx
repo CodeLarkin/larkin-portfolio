@@ -14,6 +14,7 @@ function Farmgod() {
     return (
       <div className="App">
         <div className="App-body">
+          <section>
             <h2 className="h2 farmgod-title"><span>FARMGOD DASHBOARD</span></h2>
             <p>
               The Farmgod Dashboard aggregates yield-farming / staking pools from multiple protocols into a single dashboard. It allows you to harvest farm rewards across many protocols all at once and even compound rewards. It also displays balances for many ecosystem tokens in a categorized wallet panel.
@@ -26,14 +27,18 @@ function Farmgod() {
               <br/><br/>
             </p>
             <h2>Gallery</h2>
-            <p>
+            <p className="cards">
+              <div className="vertical-centered twoCardImagePreview">
               <u>Farmgod Dashboard on Fantom</u>
               <br/>
-              <img className="galleryImageLong" src={farmgodFantom} alt="Farmgod Fantom"/>
+              <img className="wideImagePreview" src={farmgodFantom} alt="Farmgod Fantom"/>
+              </div>
+              <div className="vertical-centered twoCardImagePreview">
               <br/>
               <u>Farmgod Dashboard on Polygon</u>
               <br/>
-              <img className="galleryImage" src={farmgodMatic} alt="Farmgod Matic"/>
+              <img className="wideImagePreview" src={farmgodMatic} alt="Farmgod Matic"/>
+              </div>
               <br/><br/>
             </p>
 
@@ -58,6 +63,7 @@ function Farmgod() {
               Since this was my first ever website, I learned quite a bit from Maxus, a friend of mine, who helped me with the styling and animations, and introduced me to React.
               <br/><br/>
             </p>
+          </section>
         </div>
       </div>
     );
