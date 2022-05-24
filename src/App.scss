@@ -260,10 +260,14 @@ section {
   justify-content: space-between;
   text-align: left;
   @include borderRadius;
+  transition: transform .3s ease-in-out;
 }
-//.ProjectCard:hover {
-//  transform: scale(1.05);
-//}
+.ProjectCard:hover {
+  transform: scale(1.02);
+}
+.ProjectCard:hover h3 {
+  text-decoration: underline;
+}
 
 .ProjectCard h3 {
   text-align: center;
