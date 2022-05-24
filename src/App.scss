@@ -158,6 +158,8 @@ section {
   color: whitesmoke;
   background-color: $vim-black;
   border: none;
+  text-align: left;
+
 }
 @media only screen and (max-width: $max-mobile-width) {
   .MenuParent {
@@ -166,8 +168,12 @@ section {
     height: 100%;
     overflow: hidden;
   }
+  .MenuRoutes {
+      padding-right: 10px;
+  }
   .MenuRoutes button {
     font-size: xx-large;
+    //padding: 20px;
   }
   .MenuIconLine {
     background-color: $vim-gray;

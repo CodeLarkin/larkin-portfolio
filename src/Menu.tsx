@@ -33,7 +33,7 @@ export default function Menu(props: Props) {
         "/fantomon-gallery" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Gallery",
         "/cult"             : "\u{1f56f}\u{fe0f} The Cult",
         "/farmgod"          : "\u{2728} Farmgod",
-        "/resume"           : "\u{1F4C3} Resume",
+        "/resume"           : "\u{1F4C3} Resumé",
         "/about"            : "\u{1F92A} About Me",
     };
 
@@ -43,7 +43,7 @@ export default function Menu(props: Props) {
           <div className="MenuRoutes">
             {
               Object.keys(routes).map((route: string) =>
-                <div>
+                <div key={"menu-route-div-" + route}>
                   {(!props.iconsOnly || routeIcons[route]) &&
                     <LarkinRouterLink key={"menu-route-" + route} to={route} current={route === props.pathname}
                                       setupFunc={() => {if (isMobile) props.closeMenu()}}>
@@ -66,11 +66,9 @@ export default function Menu(props: Props) {
             </div>
           </div>
         : !isMobile &&
-          <div className="vertical-centered">
             <div className="vertical-left">
               <RouterLinks iconsOnly={true} pathname={location.pathname} closeMenu={props.close}/>
             </div>
-          </div>
         }
       </div>
     )

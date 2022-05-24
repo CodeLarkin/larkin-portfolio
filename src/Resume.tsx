@@ -12,7 +12,6 @@ function Resume() {
         <div className="App-body">
           <div>
             <section>
-
               <h2>Credentials</h2>
               <ul>
                 <li>Master of Science in Electrical and Computer Engineering</li>
