@@ -8,6 +8,7 @@ interface Props {
     close: Function;
 }
 interface RouterLinksProps {
+    iconsOnly?: boolean;
     pathname: string;
     closeMenu: Function;
 }
@@ -18,12 +19,20 @@ export default function Menu(props: Props) {
 
     const location = useLocation();
 
+    const routeIcons: Record<string, string> = {
+        "/"                 : "\u{1F3E0}",
+        "/fantomon"         : "\u{1F47E}",
+        "/cult"             : "\u{1f56f}\u{fe0f}",
+        "/farmgod"          : "\u{2728}",
+        "/resume"           : "\u{1F4C3}",
+        "/about"            : "\u{1F92A}",
+    };
     const routes: Record<string, string> = {
         "/"                 : "\u{1F3E0} Home",
-        "/farmgod"          : "\u{2728} Farmgod",
-        "/cult"             : "\u{1f56f}\u{fe0f} The Cult",
         "/fantomon"         : "\u{1F47E} Fantomon",
         "/fantomon-gallery" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Gallery",
+        "/cult"             : "\u{1f56f}\u{fe0f} The Cult",
+        "/farmgod"          : "\u{2728} Farmgod",
         "/resume"           : "\u{1F4C3} Resume",
         "/about"            : "\u{1F92A} About Me",
     };
@@ -34,12 +43,13 @@ export default function Menu(props: Props) {
           <div className="MenuRoutes">
             {
               Object.keys(routes).map((route: string) =>
-                <div key={"menu-route-" + route}>
-                  <LarkinRouterLink to={route} current={route === props.pathname}
-                                    setupFunc={() => {if (isMobile) props.closeMenu()}}>
-                    {routes[route]}
-                  </LarkinRouterLink>
-                  <br/><br/>
+                <div>
+                  {(!props.iconsOnly || routeIcons[route]) &&
+                    <LarkinRouterLink key={"menu-route-" + route} to={route} current={route === props.pathname}
+                                      setupFunc={() => {if (isMobile) props.closeMenu()}}>
+                      {props.iconsOnly ? routeIcons[route] : routes[route]}
+                    </LarkinRouterLink>
+                  }
                 </div>
               )
             }
@@ -49,10 +59,16 @@ export default function Menu(props: Props) {
 
     return (
       <div className={props.active ? "OpenMenu": "ClosedMenu"}>
-        {props.active &&
+        {props.active ?
           <div className="vertical-centered">
             <div className="vertical-left">
               <RouterLinks pathname={location.pathname} closeMenu={props.close}/>
+            </div>
+          </div>
+        : !isMobile &&
+          <div className="vertical-centered">
+            <div className="vertical-left">
+              <RouterLinks iconsOnly={true} pathname={location.pathname} closeMenu={props.close}/>
             </div>
           </div>
         }
