@@ -10,6 +10,8 @@ $vim-white: whitesmoke;
 $vim-yellow-white: #D7D7AF;
 $vim-gray: #3A3A3A;
 $vim-black: #303030;
+$vim-light-black: #353535;
+$vim-dark-black: #262626;
 $vim-light-green: #98BCBD;
 $vim-dark-green: #5F875F;
 $vim-pink: #C3A9AF;
@@ -266,15 +268,14 @@ section {
   justify-content: space-between;
   text-align: left;
   @include borderRadius;
-  transition: transform .3s ease-in-out;
+  transition: transform .1s ease-in-out;
+  box-shadow: 5px 5px $vim-dark-black;
 }
 .ProjectCard:hover {
+  background-color: $vim-light-black;
   transform: scale(1.02);
+  box-shadow: 5px 5px black;
 }
-.ProjectCard:hover h3 {
-  text-decoration: underline;
-}
-
 .ProjectCard h3 {
   text-align: center;
   margin: 20px;

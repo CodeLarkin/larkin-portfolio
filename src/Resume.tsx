@@ -26,6 +26,7 @@ function Resume() {
                 <li>Zero-Knowledge technology</li>
                 <li>Private-by-default networks</li>
                 <li>Blockchain interoperability</li>
+                <li>Bitcoin and Lightning</li>
                 <li>Ethereum L2s</li>
                 <li>Innovative Web3 L1s</li>
                 <li>Application-specific blockchains</li>
@@ -42,7 +43,7 @@ function Resume() {
               <h3>Technologies</h3>
               <ul>
                 <li>Linux, Git</li>
-                <li>EVM, Hardhat, Ethers JS, Ethers RS</li>
+                <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph</li>
                 <li>React, Vercel</li>
                 <br/>
               </ul>
