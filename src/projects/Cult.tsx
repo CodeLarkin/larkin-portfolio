@@ -42,7 +42,7 @@ function Cult() {
 
             <h3>Let's Get Technical</h3>
             <p>
-              The Skullys contract was the first Solidity contract I ever deployed to a mainnet (other than an <LarkinLink href="https://ftmscan.com/address/0x623470fe45d3AF9C53Aa9333C6a6417385130d73#code">experimental helper contract</LarkinLink> I wrote to help aggregate information for Maxus' Alchemists). In most ways it is just a basic ERC721Enumerable, but it has a cool additional feature.
+              The Skullys contract was the first Solidity contract I ever deployed to a mainnet, other than an <LarkinLink href="https://ftmscan.com/address/0x623470fe45d3AF9C53Aa9333C6a6417385130d73#code">experimental helper contract</LarkinLink> I wrote to help aggregate information for Maxus' Alchemists. In most ways it is just a basic ERC721Enumerable, but it has a cool additional feature.
               <br/><br/>
               When formulating our plan for Skullys, Funeral and I bounced around the idea that holders could share royalties. We decided to split royalties among ourselves and holders of 5 special token IDs. Every time a Skully is sold, royalties are sent to the Skullys Payments contract which splits the payment between the team and the current holders of the 5 special Skullys.
               <br/><br/>
@@ -52,23 +52,24 @@ function Cult() {
               <br/><br/>
               Skullys followed the "post-mint-reveal" paradigm, where the team randomly orders the NFTs before hand, and sets a provenance hash on the contract, but the NFT images are not actually revealed until the collection mints out. For Ghost Companions, I came up with a pseudorandom mint algorithm that has proven sufficient in light of very limited bot-driven sniping on Fantom. Check out the algorithm and its description <LarkinLink href="https://github.com/CodeLarkin/ghostlys-contracts/blob/638f72b5ae0470feada35f619388d94cffd84ef9/contracts/Ghostlys.sol#L138">here</LarkinLink>.
               <br/><br/>
-              For Skullys and Ghost Companions, Funeral designed the plain HTML+CSS websites, but I added React, wallet-connection, minting, NFT wallets and other web3 features.
+              For Skullys and Ghost Companions, Funeral designed the HTML+CSS websites, but I added React, wallet-connection, minting, NFT wallets and other Web3 features.
               <br/><br/>
             </p>
 
             <h3>Source Code</h3>
 
-            <h3>GitHub</h3>
-            <LarkinLink href="https://github.com/CodeLarkin/skullys-contracts">Skullys Contracts and Hardhat Tests</LarkinLink>
-            <br/><br/>
-            <LarkinLink href="https://github.com/CodeLarkin/ghostlys-contracts">Ghost Companion Contracts and Hardhat Tests</LarkinLink>
+            <h4>GitHub</h4>
+            <ul>
+              <li><LarkinLink href="https://github.com/CodeLarkin/skullys-contracts">Skullys Contracts and Hardhat Tests</LarkinLink></li>
+              <li><LarkinLink href="https://github.com/CodeLarkin/ghostlys-contracts">Ghost Companion Contracts and Hardhat Tests</LarkinLink></li>
+            </ul>
 
-            <h3>FTMScan</h3>
-            <LarkinLink href="https://ftmscan.com/address/0x25ff0d27395a7aad578569f83e30c82a07b4ee7d#code">Skullys Contract</LarkinLink>
-            <br/><br/>
-            <LarkinLink href="https://ftmscan.com/address/0xfB391f9a8ab09E95Eb19C670272D411951A04175#code">Skullys Payments ERC2981 Contract</LarkinLink>
-            <br/><br/>
-            <LarkinLink href="https://ftmscan.com/address/0x4eab37d5c62fa3bff8f7a5ffce6a88cfc098749c#code">Ghost Companions Contract</LarkinLink>
+            <h4>FTMScan</h4>
+            <ul>
+              <li><LarkinLink href="https://ftmscan.com/address/0x25ff0d27395a7aad578569f83e30c82a07b4ee7d#code">Skullys Contract</LarkinLink></li>
+              <li><LarkinLink href="https://ftmscan.com/address/0xfB391f9a8ab09E95Eb19C670272D411951A04175#code">Skullys Payments ERC2981 Contract</LarkinLink></li>
+              <li><LarkinLink href="https://ftmscan.com/address/0x4eab37d5c62fa3bff8f7a5ffce6a88cfc098749c#code">Ghost Companions Contract</LarkinLink></li>
+            </ul>
             <br/><br/>
           </section>
         </div>

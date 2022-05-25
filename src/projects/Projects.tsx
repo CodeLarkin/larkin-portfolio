@@ -1,3 +1,4 @@
+// External packages
 import { Link } from 'react-router-dom';
 
 // Images
@@ -10,7 +11,7 @@ function Projects() {
     return (
         <div>
           <section>
-            <h2>Projects</h2>
+            <h3>Projects</h3>
             <p>
               Select one of my projects below to learn more!
               <br/>

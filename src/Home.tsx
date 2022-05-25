@@ -14,13 +14,22 @@ function Home() {
       <div className="App">
         <div className="App-body">
         <div>
-            <Mission />
-            <Projects />
-
             <section>
-              <h2>About me</h2>
-              <LarkinRouterLink to="/about">Click here to learn more about me</LarkinRouterLink>
+              <h2>My Portfolio</h2>
             </section>
+            <Mission />
+            <section>
+              <h3>Things To Do Here</h3>
+              <ul>
+                <li>Check out my <LarkinRouterLink to="/resume">resume</LarkinRouterLink></li>
+                <li>Click on a project below</li>
+                <li>Learn more <LarkinRouterLink to="about">about me</LarkinRouterLink></li>
+                <br/>
+              </ul>
+            </section>
+
+            <Projects />
+            <br/><br/>
         </div>
         </div>
       </div>

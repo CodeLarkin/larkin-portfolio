@@ -1,6 +1,5 @@
 // External packages
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Images
 import chiri from './images/Chiri-Chiri.jpg';
@@ -17,9 +16,9 @@ function AboutMe() {
             <section>
               <h2>About Me</h2>
               <p>
-                I am an engineer with 6 years of work experience. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe made me truly appreciate the global nature of this space and how it can bring people together.
+                I am an engineer with 6 years of work experience. I spent 2021 learning to build in the Web3 space. The connections I've made with individuals around the globe made me appreciate the global nature of this space and its tendency to bring people together.
                 <br/><br/>
-                I had already been passionate about the Web3 space, but my experience in 2021 as a developer and community leader for Fantomon compounded my passion.
+                I had already been passionate about the Web3 space before 2021, but my experience in 2021 as a developer and community leader in this space provided me with the skills and resolve to build a career here.
                 <br/><br/>
               </p>
               <h3>Philosophy</h3>
@@ -40,11 +39,9 @@ function AboutMe() {
 
               <h3>Before Web3</h3>
               <p>
-                Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to frameworks written in Python for development targeting embedded systems.
+                Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to development frameworks written in Python in the embedded systems space.
                 <br/><br/>
                 I have loved every team I have worked on, and became close with my mentors and peers.
-                <br/><br/>
-                I have a Master of Science in Electrical and Computer Engineering.
                 <br/><br/>
               </p>
 
@@ -64,7 +61,7 @@ function AboutMe() {
                 <br/><br/>
                 My favorite anime is Fullmetal Alchemist.
                 <br/><br/>
-                My favorite video game is Star Wars, Knights of the Old Republic.
+                My favorite video game is Star Wars Knights of the Old Republic.
                 <br/><br/>
                 But to be honest... I spend most of my free time learning new technologies.
                 <br/><br/>
@@ -88,6 +85,7 @@ function AboutMe() {
                 "Strength before weakness."
                 <br/>
                 "Journey before destination."
+                <br/><br/>
               </p>
             </section>
           </div>

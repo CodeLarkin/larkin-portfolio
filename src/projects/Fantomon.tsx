@@ -1,6 +1,5 @@
 // External packages
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Images
 import fantomonHome from '../images/fantomon/home.png';

@@ -1,7 +1,7 @@
 function Mission() {
     return (
         <section>
-          <h2>Mission</h2>
+          <h3>Mission</h3>
           <p>
             I will be a part of the revolutionary change made possible by decentralized money and networks.
             <br/><br/>

@@ -1,6 +1,5 @@
 // External packages
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 // Utils
 import { LarkinLink } from './utils/Links';
@@ -28,7 +27,7 @@ function Resume() {
                 <li>Private-by-default networks</li>
                 <li>Blockchain interoperability</li>
                 <li>Ethereum L2s</li>
-                <li>Innovative web3 L1s</li>
+                <li>Innovative Web3 L1s</li>
                 <li>Application-specific blockchains</li>
                 <li>GameFi and P2E</li>
                 <br/>
