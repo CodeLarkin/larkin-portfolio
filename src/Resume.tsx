@@ -23,20 +23,21 @@ function Resume() {
 
               <h3>Interests</h3>
               <ul>
-                <li>Zero-Knowledge technology</li>
+                <li>Zero-knowledge protocols</li>
                 <li>Private-by-default networks</li>
                 <li>Blockchain interoperability</li>
                 <li>Bitcoin and Lightning</li>
                 <li>Ethereum L2s</li>
                 <li>Innovative Web3 L1s</li>
                 <li>Application-specific blockchains</li>
-                <li>GameFi and P2E</li>
+                <li>MEV and Flashbots</li>
+                <li>DeFi, GameFi and P2E</li>
                 <br/>
               </ul>
 
               <h3>Languages</h3>
               <p>
-                Solidity, Python, Rust, Javascript, Typescript, C, Bash
+                Solidity, Python, Rust, Javascript, Typescript, C, Bash, Verilog
                 <br/><br/>
               </p>
 
@@ -45,6 +46,7 @@ function Resume() {
                 <li>Linux, Git</li>
                 <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph</li>
                 <li>React, Vercel</li>
+                <li>FPGAs, Vivado, Quartus</li>
                 <br/>
               </ul>
             </section>

@@ -39,7 +39,7 @@ function AboutMe() {
 
               <h3>Before Web3</h3>
               <p>
-                Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to development frameworks written in Python in the embedded systems space.
+                Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to development frameworks written in Python in the embedded systems and FPGA space.
                 <br/><br/>
                 I have loved every team I have worked on, and became close with my mentors and peers.
                 <br/><br/>
