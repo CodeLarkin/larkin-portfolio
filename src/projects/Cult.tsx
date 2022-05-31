@@ -15,10 +15,10 @@ function Cult() {
       <div className="App">
         <div className="App-body">
           <section>
-            <h2 className="h2 cult-title">The Cult</h2>
+            <h2>The Cult</h2>
             <h3>Join the Cult &#128367;&#65039;</h3>
             <p>
-              The Cult began as meme in the Farmgod community, its essence aligned with the spooky theme of the Fantom ecosystem. Over time, it turned into an entire community of its own led by legendary artist, graphic designer and community-builder <LarkinLink href="https://twitter.com/yolofinancial">Fuenral (@yolofinancial)</LarkinLink>, with some help from me.
+              The Cult began as meme in the Farmgod community, its essence aligned with the spooky theme of the Fantom ecosystem. Over time, it turned into an entire community of its own led by legendary artist, graphic designer and community-builder <LarkinLink href="https://twitter.com/yolofinancial">Funeral (@yolofinancial)</LarkinLink>, with some help from me.
               <br/><br/>
               In September of 2021, I approached my friend Funeral and let him know that I would be happy to help launch the first Cult NFTs.
               <br/><br/>

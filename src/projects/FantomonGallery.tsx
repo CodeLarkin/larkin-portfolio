@@ -20,7 +20,7 @@ function FantomonGallery() {
       <div className="App">
         <div className="App-body">
           <section>
-            <h2 className="h2 fantomon-title">Fantomon Gallery</h2>
+            <h2>Fantomon Gallery</h2>
             <div className="cards">
               <img className="galleryImage" src={fantomonHome} alt="Fantomon Homescreen"/>
               <img className="galleryImage" src={trainer2} alt="Trainer #2"/>

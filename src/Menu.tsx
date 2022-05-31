@@ -24,6 +24,7 @@ export default function Menu(props: Props) {
         "/fantomon"         : "\u{1F47E}",
         "/cult"             : "\u{1f56f}\u{fe0f}",
         "/farmgod"          : "\u{2728}",
+        "/happies"          : "\u{1F642}",
         "/resume"           : "\u{1F4C3}",
         "/about"            : "\u{1F92A}",
     };
@@ -33,6 +34,7 @@ export default function Menu(props: Props) {
         "/fantomon-gallery" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Gallery",
         "/cult"             : "\u{1f56f}\u{fe0f} The Cult",
         "/farmgod"          : "\u{2728} Farmgod",
+        "/happies"          : "\u{1F642} Happies",
         "/resume"           : "\u{1F4C3} Resumé",
         "/about"            : "\u{1F92A} About Me",
     };

@@ -14,7 +14,7 @@ function Farmgod() {
       <div className="App">
         <div className="App-body">
           <section>
-            <h2 className="h2 farmgod-title"><span>FARMGOD DASHBOARD</span></h2>
+            <h2>Farmgod Dashboard</h2>
             <p>
               Farmgod is a community of individuals in the Web3 space with a passion for DeFi and GameFi. Founded by <LarkinLink href="https://twitter.com/sourSources">Maxus</LarkinLink>, the Farmgod DAO spans multiple blockchain ecosystems, but is headquartered on Fantom. Contributing to the Farmgod DAO was my introduction to development in the Web3 space and Fantom in particular.
               <br/><br/>

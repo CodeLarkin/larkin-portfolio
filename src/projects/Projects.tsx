@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import trainer from '../images/fantomon/trainer-01.png';
 import cult from '../images/cult/skullys-logo.png';
 import farmgod from '../images/farmgod/farmgod-logo.png';
+import happies from '../images/happies/happies.jpg';
 
 
 function Projects() {
@@ -51,6 +52,18 @@ function Projects() {
                 Community of cross-chain DeFi degens.
                 <br/><br/>
                 Multi-protocol yield farming dashboard.
+              </p>
+            </Link>
+
+            <Link className="ProjectCard" to="/happies">
+              <h3>The Happies™</h3>
+              <div className="vertical-centered">
+                <img className="projectImagePreview" src={happies} alt="Happies"/>
+              </div>
+              <p>
+                Free CC0 mint! All art done in MS Paint.
+                <br/><br/>
+                Even when markets are sad, we all deserve to be happy!
               </p>
             </Link>
           </div>

@@ -15,7 +15,7 @@ function Fantomon() {
       <div className="App">
         <div className="App-body">
           <section>
-            <h2 className="h2 fantomon-title">Fantomon</h2>
+            <h2>Fantomon</h2>
             <p>
               This is a passion project of mine that begun in September 2021. I work on this project with cofounder and artist <LarkinLink href="https://twitter.com/RiverBusy">Water (@RiverBusy)</LarkinLink> who had the original idea for the game.
               <br/><br/>
