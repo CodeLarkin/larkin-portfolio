@@ -43,10 +43,46 @@ function Resume() {
 
               <h3>Technologies</h3>
               <ul>
-                <li>Linux, Git</li>
-                <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph</li>
+                <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph, Chainlink VRF</li>
                 <li>React, Vercel</li>
+                <li>Linux, Git, GitLab CI/CD</li>
                 <li>FPGAs, Vivado, Quartus</li>
+                <br/>
+              </ul>
+
+              <h3>Experience</h3>
+              For more information on each of my Web3 projects, select one via the menu on the left.
+              <br/><br/>
+              <div>
+                <div className="resumeLine">
+                  <u>Self Employed</u>
+                  <div>10/2021 - Present</div>
+                </div>
+                Web3 Engineer & Project Founder
+              </div>
+              <ul>
+                <li>Fantomon</li>
+                <li>Cult NFTs</li>
+                <li>Farmgod Dashboard</li>
+                <li>The Happies™ by Yeah! Studios™</li>
+                <li>Developed Typescript, Brownie and Rust bots for detecting arbitrage opportunities on Fantom</li>
+                <br/>
+              </ul>
+
+              <div>
+                <div className="resumeLine">
+                  <u>Pre-Web3 Employment</u>
+                  <div>09/2016 - 10/2021</div>
+                </div>
+                Software and FPGA Engineer
+              </div>
+              <ul>
+                <li>Please <LarkinLink href="mailto:code.larkin@gmail.com">reach out to me directly</LarkinLink> for more details regarding my pre-Web3 employers and experience</li>
+                <li>Contributed to development frameworks written in Python and C++ for targeting heterogeneous processing environments including embedded systems and FPGAs</li>
+                <li>Implemented compilation frameworks in Python and GNU-Make to abstract away compiler intricacies in the context of heterogeneous processing</li>
+                <li>Architected highly parallel FPGA solutions for ingesting signal data into high-speed networks</li>
+                <li>Applied machine-learning algorithms via Tensorflow to reconstruct and classify signal data</li>
+                <li>As mentioned above, more details are available upon request.</li>
                 <br/>
               </ul>
             </section>

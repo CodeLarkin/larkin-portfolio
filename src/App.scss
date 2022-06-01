@@ -305,6 +305,11 @@ section {
   align-items: left;
   text-align: left;
 }
+.resumeLine {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .menuIcon {
   width: auto;
   height: 25px;
