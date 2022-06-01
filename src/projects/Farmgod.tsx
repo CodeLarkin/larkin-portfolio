@@ -57,6 +57,7 @@ function Farmgod() {
               Since this was my first ever website, I learned quite a bit from Maxus, a friend of mine, who helped me with the styling and animations, and introduced me to React.
               <br/><br/>
             </p>
+            <br/>
           </section>
         </div>
       </div>

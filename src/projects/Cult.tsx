@@ -69,8 +69,8 @@ function Cult() {
               <li><LarkinLink href="https://ftmscan.com/address/0x25ff0d27395a7aad578569f83e30c82a07b4ee7d#code">Skullys Contract</LarkinLink></li>
               <li><LarkinLink href="https://ftmscan.com/address/0xfB391f9a8ab09E95Eb19C670272D411951A04175#code">Skullys Payments ERC2981 Contract</LarkinLink></li>
               <li><LarkinLink href="https://ftmscan.com/address/0x4eab37d5c62fa3bff8f7a5ffce6a88cfc098749c#code">Ghost Companions Contract</LarkinLink></li>
+              <br/><br/>
             </ul>
-            <br/><br/>
           </section>
         </div>
       </div>

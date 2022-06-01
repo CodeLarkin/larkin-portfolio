@@ -25,39 +25,39 @@ export default function Menu(props: Props) {
     const location = useLocation();
 
     const routeImgs: Record<string, string> = {
-        "/fantomon"         : fantomon,
-        "/cult"             : cult,
-        "/farmgod"          : farmgod,
-        "/happies"          : happies,
+        "/fantomon" : fantomon,
+        "/cult"     : cult,
+        "/farmgod"  : farmgod,
+        "/happies"  : happies,
     };
     const routeIcons: Record<string, string> = {
-        "/"                 : "\u{1F3E0}",
-        "/fantomon"         : "\u{1F47E}",
-        "/cult"             : "\u{1f56f}\u{fe0f}",
-        "/farmgod"          : "\u{2728}",
-        "/happies"          : "\u{1F642}",
-        "/resume"           : "\u{1F4C3}",
-        "/about"            : "\u{1F92A}",
+        "/"         : "\u{1F3E0}",
+        "/fantomon" : "\u{1F47E}",
+        "/cult"     : "\u{1f56f}\u{fe0f}",
+        "/farmgod"  : "\u{2728}",
+        "/happies"  : "\u{1F642}",
+        "/resume"   : "\u{1F4C3}",
+        "/about"    : "\u{1F92A}",
     }
     const routes: Record<string, string> = {
-        "/"                 : "\u{1F3E0} Home",
-        "/fantomon"         : "\u{1F47E} Fantomon",
-        "/fantomon-gallery" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Gallery",
-        "/cult"             : "\u{1f56f}\u{fe0f} The Cult",
-        "/farmgod"          : "\u{2728} Farmgod",
-        "/happies"          : "\u{1F642} Happies",
-        "/resume"           : "\u{1F4C3} Resumé",
-        "/about"            : "\u{1F92A} About Me",
+        "/"              : "\u{1F3E0} Home",
+        "/fantomon"      : "\u{1F47E} Fantomon",
+        "/fantomon-dive" : "\u{00A0}\u{00A0}\u{00A0}\u{00A0}└─ Deep Dive",
+        "/cult"          : "\u{1f56f}\u{fe0f} The Cult",
+        "/farmgod"       : "\u{2728} Farmgod",
+        "/happies"       : "\u{1F642} Happies",
+        "/resume"        : "\u{1F4C3} Resumé",
+        "/about"         : "\u{1F92A} About Me",
     };
     const routesOnly: Record<string, string> = {
-        "/"                 : " Home",
-        "/fantomon"         : " Fantomon",
-        "/fantomon-gallery" : " Gallery",
-        "/cult"             : " The Cult",
-        "/farmgod"          : " Farmgod",
-        "/happies"          : " Happies",
-        "/resume"           : " Resumé",
-        "/about"            : " About Me",
+        "/"              : " Home",
+        "/fantomon"      : " Fantomon",
+        "/fantomon-dive" : " Deep Dive",
+        "/cult"          : " The Cult",
+        "/farmgod"       : " Farmgod",
+        "/happies"       : " Happies",
+        "/resume"        : " Resumé",
+        "/about"         : " About Me",
     };
 
 

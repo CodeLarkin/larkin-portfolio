@@ -14,7 +14,7 @@ import Header from './Header';
 import Home from './Home';
 import Menu from './Menu';
 import Fantomon from './projects/Fantomon';
-import FantomonGallery from './projects/FantomonGallery';
+import FantomonDive from './projects/FantomonDive';
 import Cult from './projects/Cult';
 import Farmgod from './projects/Farmgod';
 import Happies from './projects/Happies';
@@ -58,13 +58,13 @@ function Layout() {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route index element={<Home />} />
-                <Route path="/fantomon"         element={<Fantomon />} />
-                <Route path="/fantomon-gallery" element={<FantomonGallery />} />
-                <Route path="/cult"             element={<Cult />} />
-                <Route path="/farmgod"          element={<Farmgod />} />
-                <Route path="/happies"          element={<Happies />} />
-                <Route path="/resume"           element={<Resume  />} />
-                <Route path="/about"            element={<AboutMe  />} />
+                <Route path="/fantomon"      element={<Fantomon />} />
+                <Route path="/fantomon-dive" element={<FantomonDive />} />
+                <Route path="/cult"          element={<Cult />} />
+                <Route path="/farmgod"       element={<Farmgod />} />
+                <Route path="/happies"       element={<Happies />} />
+                <Route path="/resume"        element={<Resume  />} />
+                <Route path="/about"         element={<AboutMe  />} />
               </Routes>
               <div className="Footer">
                 <LarkinLink href="https://twitter.com/CodeLarkin">Twitter</LarkinLink>

@@ -4,7 +4,6 @@ import React from 'react';
 // Images
 import myHappiesPfp from '../images/happies/my-happies-pfp.png';
 import featured from '../images/happies/happies-featured.jpg';
-import ghostly92 from '../images/cult/ghostly-92.png';
 
 // Utils
 import { LarkinLink } from '../utils/Links';
@@ -49,8 +48,11 @@ function Happies() {
             </p>
 
             <h3>Source Code</h3>
+            <p>
               <LarkinLink href="https://etherscan.io/address/0xefB4F583B2b6F0E8C658Dd7675E356D8a30Ac7FF#code">The Happies™ on Etherscan</LarkinLink> developed using Hardhat.
-            <br/><br/>
+              <br/><br/>
+            </p>
+            <br/>
           </section>
         </div>
       </div>
