@@ -35,7 +35,7 @@ function FantomonDive() {
                 <img className="galleryImage" src={trainer2} alt="Trainer #2"/>
                 <img className="galleryImage" src={fantomon1} alt="Fantomon #1"/>
               </div>
-              This allows the cards to merge dynamic on-chain data like XP, HP and other stats with art that was originally made off-chain. My inspiration for on-chain SVGs came from <LarkinLink href="https://www.lootproject.com/">Loot (for Adventurers)</LarkinLink> as well as <LarkinLink href="https://eyeoftruth.io/alchemists">Maxus' Alchemists</LarkinLink>. My latest code for these Solidity-generated card visualizations can be found in the <LarkinLink href="https://ftmscan.com/address/0x62332cf40203c725be736ff8f32f40a9d3af66fb#code">FantomonGraphics</LarkinLink> contract.
+              This allows the cards to merge dynamic on-chain data like XP, HP and other stats with art that was originally made off-chain. My inspiration for on-chain SVGs came from <LarkinLink href="https://www.lootproject.com/">Loot (for Adventurers)</LarkinLink> as well as <LarkinLink href="https://eyeoftruth.io/alchemists">Maxus' Alchemists</LarkinLink>. My latest code for these Solidity-generated card visualizations can be found in the <LarkinLink href="https://ftmscan.com/address/0x62332cf40203c725be736ff8f32f40a9d3af66fb#code">Fantomon Graphics</LarkinLink> contract.
               <br/><br/>
             </p>
 
@@ -44,7 +44,6 @@ function FantomonDive() {
               I very much admire the open nature of projects like <LarkinLink href="https://www.lootproject.com/">Loot (for Adventurers)</LarkinLink> and <LarkinLink href="https://rarity.game">Rarity Adventures</LarkinLink>. I knew that there would be certain permissioned aspects of Fantomon (like the ability for battle arenas to modify a card's wins and losses), but I also wanted there to be some completely open aspects to the ecosystem.
               <br/><br/>
               This line of reasoning led me to <LarkinLink href="https://fmons.gitbook.io/fantomon/trainer-cards/courage">Courage</LarkinLink> and <LarkinLink href="https://fantomon.net/journey">Journeys</LarkinLink>. Anybody can create a Journey contract with custom rules and rewards. Trainers can journey once every 12 hours, and each time they journey they can gain up to 1 Courage.
-              <br/><br/>
               <div className="cards">
                 <img className="galleryImage" src={journey} alt="Journey"/>
               </div>
@@ -56,7 +55,7 @@ function FantomonDive() {
 
             <h3>Per-card Royalties Based on Effort</h3>
             <p>
-              While designing ways for Fantomon players to earn, one possibility that came to mind was royalties sharing. In particular, I wanted to reward users for the time and resources they would dedicate to the game. This led me down the rabbit hole of per-token royalties and <LarkinLink href="https://eips.ethereum.org/EIPS/eip-2981">EIP2981</LarkinLink>.
+              While designing ways for Fantomon players to earn, one possibility that came to mind was royalties sharing. In particular, I wanted to reward users for the time and resources they dedicate to the game. This led me down the rabbit hole of per-token royalties and <LarkinLink href="https://eips.ethereum.org/EIPS/eip-2981">EIP2981</LarkinLink>.
               <br/><br/>
               EIP2981 allows you to specify a royalties receiver and percentage per-token. I wanted to take it a step further and split a Fantomon card's royalties among the specific players that put effort into a given card.
               <br/><br/>
@@ -64,7 +63,7 @@ function FantomonDive() {
               <h5>The Royalties Mechanism</h5>
               A player who levels a card to level 25 locks in 1% lifetime royalties for secondary sales of that card. If that same player levels the card to 50, they lock in another 1% (2% total now). If the card is sold and another player levels it to 75, that new player locks in 1%. The same rules apply for level 100 (which is the max level).
               <br/><br/>
-              So, 7% royalties are taken on secondary sales of Fantomon cards. For a specific card, the Fantomon team splits 3%, and the players who level that card split the remaining 4%. For a more detailed explanation along with an example, take a look at the <LarkinLink href="https://fmons.gitbook.io/fantomon/fantomon-cards/royalties">Fantomon Card Royalties</LarkinLink> section of our documentation.
+              7% total royalties are taken on secondary sales of Fantomon cards. For a specific card, the Fantomon team splits 3%, and the players who level that card split the remaining 4%. For a more detailed explanation and example, take a look at the <LarkinLink href="https://fmons.gitbook.io/fantomon/fantomon-cards/royalties">Fantomon Card Royalties</LarkinLink> section of our documentation.
               <div className="cards">
                 <img className="galleryImage" src={fantomons} alt="Fantomons"/>
               </div>
@@ -81,13 +80,13 @@ function FantomonDive() {
 
             <h3>Pseudorandom Minting</h3>
             <p>
-              To gamify the minting process, card attributes are pseudorandom. Some card attributes are common (like Trainer homeworld Gunka or an Fantomon type Aqua) and others are very rare (like Trainer class Cosmic Explorer or Ancient Fantomon species Jixpi).
+              To gamify the minting process, card attributes are pseudorandom. Some card attributes are common (like Trainer homeworld Gunka or Fantomon type Aqua) and others are very rare (like Trainer class Cosmic Explorer or Ancient Fantomon species Jixpi).
               <br/><br/>
               Of course pseudorandomness is not perfect, but it makes minting more fun and creates some rarity for on-chain card attributes. Further gamifying Fantomon card mint, Trainer attributes and stats affect pseudorandom mint probabilities. In short, stronger Trainer cards (especially those with substantial player-time dedicated to them) have better chances of minting rarer Fantomons. When a player is minting a Fantomon card, they first activate a Trainer to improve their chances of getting a card they want.
               <div className="cards">
                 <img className="galleryImage" src={trainers} alt="Trainers"/>
               </div>
-              To learn more about Trainer attributes and stats, see the <LarkinLink href="https://fmons.gitbook.io/fantomon/trainer-cards">Trainer Cards</LarkinLink> section of our documentation. For more information on Fantomon attributes and stats, see <LarkinLink href="https://fmons.gitbook.io/fantomon/fantomon-cards">Fantomon Cards</LarkinLink>. Finally, to see how Trainer cards impact Fantomon mint, check the corresponding <LarkinLink href="https://fmons.gitbook.io/fantomon/fantomon-cards/trainer-card-impact-on-fantomon-mint">section</LarkinLink> of our documentation.
+              To learn more about Trainer attributes and stats, see the <LarkinLink href="https://fmons.gitbook.io/fantomon/trainer-cards">Trainer Cards</LarkinLink> section of our documentation. For more information on Fantomon attributes and stats, see <LarkinLink href="https://fmons.gitbook.io/fantomon/fantomon-cards">Fantomon Cards</LarkinLink>. Finally, to see how Trainer cards impact Fantomon mint, check the corresponding <LarkinLink href="https://fmons.gitbook.io/fantomon/fantomon-cards/trainer-card-impact-on-fantomon-mint">section</LarkinLink> of our documentation or dig into the <LarkinLink href="https://ftmscan.com/address/0x874E1e0Ff55D7D22c50065bCAd1Bd9d16D284b34#code">Fantomon Attributes</LarkinLink> contract.
               <br/><br/>
             </p>
 
@@ -105,11 +104,17 @@ function FantomonDive() {
               <div className="cards">
                 <img className="galleryImage" src={healingRifts} alt="Healing Rifts"/>
               </div>
-              The <LarkinLink href="https://fantomon.net/quasar">Quasar</LarkinLink> is another custom <LarkinLink href="https://ftmscan.com/address/0x3f62001ca62c6d0d79c4a91f74dccb7093e2813b#code">contract</LarkinLink> that is an adaptation of the MasterChef contract for ERC721s. Where a MasterChef expects LP addresses, this contract expects ERC721s. A userInfo entry corresponds to an ERC721 token ID instead a user address. Instead of containing an "amount" of tokens staked, a userInfo entry contains a rewards "boost/multipler" for that token ID. Finally, the contract is non-custodial and is therefore really just a gas-efficient mechanism for distributing tokens to ERC721 holders.
+              The <LarkinLink href="https://fantomon.net/quasar">Quasar</LarkinLink> is another custom <LarkinLink href="https://ftmscan.com/address/0x3f62001ca62c6d0d79c4a91f74dccb7093e2813b#code">contract</LarkinLink> that is an adaptation of the MasterChef contract for ERC721s. Where a MasterChef expects LP addresses, this contract expects ERC721s. A userInfo entry corresponds to an ERC721 token ID instead of a user address. Instead of containing an "amount" of tokens staked, a userInfo entry contains a rewards "boost/multipler" for that token ID. Finally, the contract is non-custodial and is therefore really just a gas-efficient mechanism for distributing tokens to ERC721 holders.
               <div className="cards">
                 <img className="galleryImage" src={quasar} alt="Quasar"/>
               </div>
-              When a Fantomon is fed, the corresponding ERC20 food tokens are burned, and the Fantomon becomes stronger. New foods or partner tokens can be quickly added to the menu via the <LarkinLink href="https://ftmscan.com/address/0xf695fb062A310b9BDbDd7C45B4B6b7479BFCFaE6#code">Fantomon Feeding</LarkinLink> contract. You can browse the <LarkinLink href="https://fmons.gitbook.io/fantomon/tokens/food-menu">Food Menu</LarkinLink> or check out <LarkinLink href="https://www.fantomon.net/feed">feeding</LarkinLink> or <LarkinLink href="https://www.fantomon.net/mix">mixing</LarkinLink> on the site itself!
+              When a Fantomon is fed, the corresponding ERC20 food tokens are burned, and the Fantomon becomes stronger. New foods or partner tokens can be quickly added to the menu via the <LarkinLink href="https://ftmscan.com/address/0xf695fb062A310b9BDbDd7C45B4B6b7479BFCFaE6#code">Fantomon Feeding</LarkinLink> contract. You can browse the <LarkinLink href="https://fmons.gitbook.io/fantomon/tokens/food-menu">Food Menu</LarkinLink> or check out <LarkinLink href="https://www.fantomon.net/feed">feeding</LarkinLink> and <LarkinLink href="https://www.fantomon.net/mix">mixing</LarkinLink> on the site itself!
+              <br/><br/>
+            </p>
+
+            <h3>Battles</h3>
+            <p>
+              This is the fun part and is what I am working on now as of May 2022. This is quite a challenge, especially when taking into consideration gas costs, but is proving a fun set of problems to solve. I first plan to release Player-versus-Environment gameplay where players battle the computer solo. Then I plan to release Cooperative-versus-Environment and finally Player-verus-Player gameplay.
               <br/><br/>
             </p>
 
