@@ -2,6 +2,11 @@ import { useLocation } from "react-router-dom";
 
 import { LarkinRouterLink } from "./utils/Links";
 
+import fantomon from './images/fantomon/trainer-01.png';
+import cult from './images/cult/skullys-logo.png';
+import farmgod from './images/farmgod/farmgod-logo.png';
+import happies from './images/happies/happies.jpg';
+
 
 interface Props {
     active: boolean;
@@ -19,6 +24,12 @@ export default function Menu(props: Props) {
 
     const location = useLocation();
 
+    const routeImgs: Record<string, string> = {
+        "/fantomon"         : fantomon,
+        "/cult"             : cult,
+        "/farmgod"          : farmgod,
+        "/happies"          : happies,
+    };
     const routeIcons: Record<string, string> = {
         "/"                 : "\u{1F3E0}",
         "/fantomon"         : "\u{1F47E}",
@@ -27,7 +38,7 @@ export default function Menu(props: Props) {
         "/happies"          : "\u{1F642}",
         "/resume"           : "\u{1F4C3}",
         "/about"            : "\u{1F92A}",
-    };
+    }
     const routes: Record<string, string> = {
         "/"                 : "\u{1F3E0} Home",
         "/fantomon"         : "\u{1F47E} Fantomon",
@@ -37,6 +48,16 @@ export default function Menu(props: Props) {
         "/happies"          : "\u{1F642} Happies",
         "/resume"           : "\u{1F4C3} Resumé",
         "/about"            : "\u{1F92A} About Me",
+    };
+    const routesOnly: Record<string, string> = {
+        "/"                 : " Home",
+        "/fantomon"         : " Fantomon",
+        "/fantomon-gallery" : " Gallery",
+        "/cult"             : " The Cult",
+        "/farmgod"          : " Farmgod",
+        "/happies"          : " Happies",
+        "/resume"           : " Resumé",
+        "/about"            : " About Me",
     };
 
 
@@ -49,7 +70,16 @@ export default function Menu(props: Props) {
                   {(!props.iconsOnly || routeIcons[route]) &&
                     <LarkinRouterLink key={"menu-route-" + route} to={route} current={route === props.pathname}
                                       setupFunc={() => {if (isMobile) props.closeMenu()}}>
-                      {props.iconsOnly ? routeIcons[route] : routes[route]}
+                      {routeImgs[route] ?
+                        <span className="menuLine">
+                          <img className="menuIcon" src={routeImgs[route]} alt=""/>
+                          {!props.iconsOnly && routesOnly[route]}
+                        </span>
+                      : props.iconsOnly ?
+                        routeIcons[route]
+                      :
+                        routes[route]
+                      }
                     </LarkinRouterLink>
                   }
                 </div>

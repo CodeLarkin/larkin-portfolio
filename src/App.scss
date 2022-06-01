@@ -175,7 +175,6 @@ section {
   }
   .MenuRoutes button {
     font-size: xx-large;
-    //padding: 20px;
   }
   .MenuIconLine {
     background-color: $vim-gray;
@@ -306,6 +305,14 @@ section {
   align-items: left;
   text-align: left;
 }
+.menuIcon {
+  width: auto;
+  height: 25px;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
 .smallImagePreview {
   padding: 5px;
   width: auto;
@@ -364,6 +371,12 @@ section {
   @include borderRadius;
 }
 @media only screen and (max-width: $max-mobile-width) {
+  .menuIcon {
+    height: 40px;
+    border-radius: 5px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+  }
   .wideImagePreview {
     max-height: 400px;
   }
