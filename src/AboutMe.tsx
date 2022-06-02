@@ -16,12 +16,13 @@ function AboutMe() {
             <section>
               <h2>About Me</h2>
               <p>
-                I am an engineer with 6 years of work experience. I spent 2021 learning to build in the Web3 space. The connections I've made with individuals around the globe made me appreciate the global nature of this space and its tendency to bring people together.
+                I am an engineer with 6 years of industry experience and a passion for solving problems and learning new skills. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe gave me the confidence to take the leap and build a career at this exciting frontier.
                 <br/><br/>
-                I had already been passionate about the Web3 space before 2021, but my experience in 2021 as a developer and community leader in this space provided me with the skills and resolve to build a career here.
+                Prior to 2021 I worked traditional software engineering jobs, but for years had an itching interest in cryptocurrencies. I wanted to take part in this revolution of money, data ownership, human organization, digital identity and privacy. I truly believe that Bitcoin and Web3 can improve lives around the world and I am proud to finally be a part of the change.
                 <br/><br/>
               </p>
-              <h3>Philosophy</h3>
+
+              <h3>My Philosophy</h3>
               <p>
                 Time is our most valuable resource. I spend my time where my passions are and with the people I love.
                 <br/><br/>
@@ -37,22 +38,6 @@ function AboutMe() {
                 <br/><br/>
               </p>
 
-              <h3>Before Web3</h3>
-              <p>
-                Prior to entering the Web3 space, I worked for five years as a software and hardware engineer. I primarily contributed to development frameworks written in Python in the embedded systems and FPGA space.
-                <br/><br/>
-                I have loved every team I have worked on, and became close with my mentors and peers.
-                <br/><br/>
-              </p>
-
-              <h3>Vim</h3>
-              <p>
-                I love Vim &#9829;
-                <br/><br/>
-                The style and many of the colors of this website are inspired by my favorite Vim theme "<LarkinLink href="https://github.com/junegunn/seoul256.vim">seoul256.vim</LarkinLink>".
-                <br/><br/>
-              </p>
-
               <h3>Hobbies</h3>
               <p>
                 My hobbies include reading and audiobooks, rock climbing, anime and video games
@@ -65,6 +50,8 @@ function AboutMe() {
                 <br/><br/>
                 But to be honest... I spend most of my free time learning new technologies.
                 <br/><br/>
+                And I love Vim! The style and many of the colors of this website are inspired by my favorite Vim theme "<LarkinLink href="https://github.com/junegunn/seoul256.vim">seoul256.vim</LarkinLink>".
+                <br/><br/>
               </p>
 
               <h3>The Pseudonym "Larkin" </h3>
@@ -76,7 +63,7 @@ function AboutMe() {
                 <br/><br/>
                 I cannot go into further detail about why I chose the name Larkin without risking spoilers, but I encourage you to dive into <LarkinLink href="https://www.brandonsanderson.com/">Sanderson's Cosmere</LarkinLink>.
                 <br/><br/>
-                The logo at the top of this site is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens can lend us.
+                The logo at the top left of this site (desktop only) is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens can lend us.
                 <br/><br/>
                 When I find myself going through a rough time, I find solace in the journeys, trials and triumphs of Kaladin, Shallan, Dalinar and others.
                 <br/><br/>

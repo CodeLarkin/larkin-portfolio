@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 
 import { LarkinRouterLink } from "./utils/Links";
 
+// Images
 import fantomon from './images/fantomon/trainer-01.png';
 import cult from './images/cult/skullys-logo.png';
 import farmgod from './images/farmgod/farmgod-logo.png';
@@ -98,9 +99,11 @@ export default function Menu(props: Props) {
             </div>
           </div>
         : !isMobile &&
+          <div className="vertical-centered">
             <div className="vertical-left">
               <RouterLinks iconsOnly={true} pathname={location.pathname} closeMenu={props.close}/>
             </div>
+          </div>
         }
       </div>
     )

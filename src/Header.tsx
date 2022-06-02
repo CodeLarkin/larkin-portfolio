@@ -2,10 +2,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-// Images
-import bridgeFour from './images/bridge-four.png';
-
-
 
 function Header() {
     return (

@@ -44,7 +44,7 @@ function Projects() {
             </Link>
 
             <Link className="ProjectCard" to="/farmgod">
-              <h3>FARMGOD</h3>
+              <h3>Farmgod</h3>
               <div className="vertical-centered">
                 <img className="projectImagePreview" src={farmgod} alt="Farmgod"/>
               </div>

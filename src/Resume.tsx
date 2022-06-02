@@ -88,7 +88,7 @@ function Resume() {
               </div>
               <ul>
                 <li>Cofounded <LarkinRouterLink to="/fantomon">Fantomon</LarkinRouterLink>, a GameFi trading card game built on the Fantom Opera network</li>
-                <li>Designed and implemented a modular <LarkinRouterLink to="/fantomon-dive">ecosystem</LarkinRouterLink> of Solidity smart <LarkinLink href="https://fmons.gitbook.io/fantomon/welcome/contracts">contracts</LarkinLink> that serve as the Fantomon backend</li>
+                <li>Designed and implemented a modular <LarkinRouterLink to="/fantomon-dive">ecosystem</LarkinRouterLink> of Solidity smart <LarkinLink href="https://fmons.gitbook.io/fantomon/welcome/contracts">contracts</LarkinLink> for Fantomon including highly interactive and dynamic NFTs, ERC20 farming mechanisms, and more</li>
                 <li>Constructed an elaborate React website for tracking Fantomon cards and interacting with them</li>
                 <li>Authored <LarkinLink href="https://fmons.gitbook.io">documentation</LarkinLink> and <LarkinLink href="https://fmons.gitbook.io/fantomon/lore/the-quasar-expedition">lore</LarkinLink> for the Fantomon community</li>
                 <li>Implemented custom ERC721 contracts and React mint websites for <LarkinRouterLink to="/cult">Cult NFTs</LarkinRouterLink> and <LarkinRouterLink to="/happies">Yeah! Studios™</LarkinRouterLink></li>

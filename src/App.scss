@@ -318,8 +318,20 @@ section {
   flex-direction: row;
   justify-content: space-between;
 }
+.menuHeaderParent {
+  width: fit-content;
+  text-align: center;
+  //margin-left: 6.5px;
+}
+.menuLogo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0px;
+  margin-bottom: 15px;
+}
 .menuIcon {
-  width: auto;
+  width: 25px;
   height: 25px;
   border-radius: 3px;
   vertical-align: middle;
@@ -569,9 +581,8 @@ $fantomon-yellow: #E9AB5F;
   margin: 0 auto;
 }
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 2.5s ease-in-out;
-    animation-direction: alternate;
+  .menuLogo:hover {
+    animation: menu-logo-spin infinite 2.5s linear;
   }
   .typewriter {
     border-right: .70em solid $vim-gray;
@@ -582,12 +593,21 @@ $fantomon-yellow: #E9AB5F;
   }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(-2deg);
+@keyframes menu-logo-spin {
+  0% {
+    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(2deg);
+  25% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(4deg);
+  }
+  100% {
+    transform: rotate(0deg);
   }
 }
 
