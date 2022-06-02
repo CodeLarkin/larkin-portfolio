@@ -16,7 +16,7 @@ function AboutMe() {
             <section>
               <h2>About Me</h2>
               <p>
-                I am an engineer with 6 years of industry experience and a passion for solving problems and learning new skills. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe gave me the confidence to take the leap and build a career at this exciting frontier.
+                I am an engineer with 6 years of industry experience and a passion for solving problems and learning new skills. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe gave me the confidence and drive to take the leap and build a career at this exciting frontier.
                 <br/><br/>
                 Prior to 2021 I worked traditional software engineering jobs, but for years had an itching interest in cryptocurrencies. I wanted to take part in this revolution of money, data ownership, human organization, digital identity and privacy. I truly believe that Bitcoin and Web3 can improve lives around the world and I am proud to finally be a part of the change.
                 <br/><br/>
@@ -40,15 +40,17 @@ function AboutMe() {
 
               <h3>Hobbies</h3>
               <p>
-                My hobbies include reading and audiobooks, rock climbing, anime and video games
+                My hobbies include reading and audiobooks, crypto podcasts, rock climbing, watching anime, playing video games, and jamming on the drums.
                 <br/><br/>
-                My favorite book series is <LarkinLink href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</LarkinLink>, by Brandon Sanderson.
-                <br/><br/>
-                My favorite anime is Fullmetal Alchemist.
-                <br/><br/>
-                My favorite video game is Star Wars Knights of the Old Republic.
-                <br/><br/>
-                But to be honest... I spend most of my free time learning new technologies.
+                Some of my favorites include:
+                <ul>
+                  <li>Fantasy book series: <LarkinLink href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">The Stormlight Archive</LarkinLink>, by Brandon Sanderson</li>
+                  <li>Non-fiction book series: <LarkinLink href="https://en.wikipedia.org/wiki/Sapiens:_A_Brief_History_of_Humankind">Sapiens: A Brief History of Humankind</LarkinLink>, by Yuval Noah Harari</li>
+                  <li>Podcast: <LarkinLink href="https://www.coindesk.com/podcasts/the-breakdown-with-nlw/">The Breakdown</LarkinLink> with <LarkinLink href="https://twitter.com/nlw">NLW</LarkinLink></li>
+                  <li>Anime: <LarkinLink href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood">Fullmetal Alchemist: Brotherhood</LarkinLink></li>
+                  <li>Video game: <LarkinLink href="https://en.wikipedia.org/wiki/Star_Wars:_Knights_of_the_Old_Republic">Star Wars: Knights of the Old Republic</LarkinLink></li>
+                </ul>
+                But to be honest... I spend most of my free time learning new technologies in the Web3 space.
                 <br/><br/>
                 And I love Vim! The style and many of the colors of this website are inspired by my favorite Vim theme "<LarkinLink href="https://github.com/junegunn/seoul256.vim">seoul256.vim</LarkinLink>".
                 <br/><br/>

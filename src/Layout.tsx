@@ -77,7 +77,7 @@ function Layout() {
               <div className="Footer">
                 <LarkinLink href="https://twitter.com/CodeLarkin">Twitter</LarkinLink>
                 <LarkinLink href="https://github.com/CodeLarkin">GitHub</LarkinLink>
-                <LarkinLink href="https://fantomon.net">Fantomon</LarkinLink>
+                <LarkinLink href="mailto:code.larkin@gmail.com">Email</LarkinLink>
                 <br/><br/>
                 Larkin#5716 @ Discord
                 <br/><br/>

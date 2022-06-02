@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Utils
-import { LarkinRouterLink } from "./utils/Links";
+import { LarkinLink, LarkinRouterLink } from "./utils/Links";
 
 // Sub-components
 import Mission from './Mission';
@@ -29,7 +29,20 @@ function Home() {
             </section>
 
             <Projects />
-            <br/><br/>
+            <br/>
+
+            <section>
+              <h3>Contact or Follow Me</h3>
+              <ul>
+                <li>Email me at <LarkinLink href="mailto:code.larkin@gmail.com">code.larkin@gmail.com</LarkinLink></li>
+                <li>Follow me on <LarkinLink href="https://twitter.com/CodeLarkin">Twitter</LarkinLink></li>
+                <li>Track me on <LarkinLink href="https://github.com/CodeLarkin">GitHub</LarkinLink></li>
+                <li>Friend me on Discord @ Larkin#5716</li>
+
+              </ul>
+              <br/><br/>
+            </section>
+
         </div>
         </div>
       </div>
