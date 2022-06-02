@@ -2,7 +2,7 @@
 import React from 'react';
 
 // Utils
-import { LarkinLink } from './utils/Links';
+import { LarkinLink, LarkinRouterLink } from './utils/Links';
 
 
 function Resume() {
@@ -10,9 +10,10 @@ function Resume() {
       <div className="App">
         <div className="App-body">
           <div>
-            <section>
+            <section className="Resume">
               <h2>Resume</h2>
               <h3>Credentials</h3>
+              <hr/>
               <ul>
                 <li>Master of Science in Electrical and Computer Engineering - 2016</li>
                 <li>6 years of Software Engineering industry experience</li>
@@ -22,6 +23,7 @@ function Resume() {
               </ul>
 
               <h3>Interests</h3>
+              <hr/>
               <ul>
                 <li>Zero-knowledge protocols</li>
                 <li>Private-by-default networks</li>
@@ -36,21 +38,45 @@ function Resume() {
               </ul>
 
               <h3>Languages</h3>
+              <hr/>
               <p>
                 Solidity, Python, Rust, Javascript, Typescript, C, Bash, Verilog
                 <br/><br/>
               </p>
 
               <h3>Technologies</h3>
-              <ul>
-                <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph, Chainlink VRF</li>
-                <li>React, Vercel</li>
-                <li>Linux, Git, GitLab CI/CD</li>
-                <li>FPGAs, Vivado, Quartus</li>
-                <br/>
-              </ul>
+              <hr/>
+              <p>
+                <u>General</u>
+                <ul>
+                  <li>Linux, Git, GitLab CI/CD</li>
+                </ul>
+              </p>
+
+              <p>
+                <u>Web3</u>
+                <ul>
+                  <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph, Chainlink VRF</li>
+                </ul>
+              </p>
+
+              <p>
+                <u>Websites</u>
+                <ul>
+                  <li>React, Vercel</li>
+                </ul>
+              </p>
+
+              <p>
+                <u>Embedded & Hardware</u>
+                <ul>
+                  <li>FPGAs, Vivado, Quartus</li>
+                  <br/>
+                </ul>
+              </p>
 
               <h3>Experience</h3>
+              <hr/>
               For more information on each of my Web3 projects, select one via the menu on the left.
               <br/><br/>
               <div>
@@ -61,11 +87,13 @@ function Resume() {
                 Web3 Engineer & Project Founder
               </div>
               <ul>
-                <li>Fantomon</li>
-                <li>Cult NFTs</li>
-                <li>Farmgod Dashboard</li>
-                <li>The Happies™ by Yeah! Studios™</li>
-                <li>Developed Typescript, Brownie and Rust bots for detecting arbitrage opportunities on Fantom</li>
+                <li>Cofounded <LarkinRouterLink to="/fantomon">Fantomon</LarkinRouterLink>, a GameFi trading card game built on the Fantom Opera network</li>
+                <li>Designed and implemented a modular <LarkinRouterLink to="/fantomon-dive">ecosystem</LarkinRouterLink> of Solidity smart <LarkinLink href="https://fmons.gitbook.io/fantomon/welcome/contracts">contracts</LarkinLink> that serve as the Fantomon backend</li>
+                <li>Constructed an elaborate React website for tracking Fantomon cards and interacting with them</li>
+                <li>Authored <LarkinLink href="https://fmons.gitbook.io">documentation</LarkinLink> and <LarkinLink href="https://fmons.gitbook.io/fantomon/lore/the-quasar-expedition">lore</LarkinLink> for the Fantomon community</li>
+                <li>Implemented custom ERC721 contracts and React mint websites for <LarkinRouterLink to="/cult">Cult NFTs</LarkinRouterLink> and <LarkinRouterLink to="/happies">Yeah! Studios™</LarkinRouterLink></li>
+                <li>Built the multi-protocol and multi-chain DeFi farming tool, the <LarkinRouterLink to="/farmgod">Farmgod Dashboard</LarkinRouterLink>, for harvesting and compounding yields from multiple protocols all at once</li>
+                <li>Developed separate Typescript, Python and Rust bots for detecting arbitrage opportunities on Fantom</li>
                 <br/>
               </ul>
 
