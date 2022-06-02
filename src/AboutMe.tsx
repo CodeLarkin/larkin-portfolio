@@ -57,6 +57,7 @@ function AboutMe() {
               <h3>The Pseudonym "Larkin" </h3>
               <div className="vertical-centered">
                 <img src={chiri} alt="Chiri-Chiri"/>
+                <figcaption>by <LarkinLink href="https://coppermind.net/wiki/Coppermind:Artists/Casta">Casta</LarkinLink></figcaption>
               </div>
               <p>
                 "Larkin" are little flying crustaceans in my favorite fantasy series, <LarkinLink href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</LarkinLink>, by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
