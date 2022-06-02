@@ -18,7 +18,7 @@ function Resume() {
                 <li>Master of Science in Electrical and Computer Engineering - 2016</li>
                 <li>6 years of Software Engineering industry experience</li>
                 <li>{">"}1 year of engineering experience in Web3</li>
-                <li>Co-founder of multiple Web3 projects and communities</li>
+                <li>Cofounder of multiple Web3 projects and communities</li>
                 <br/>
               </ul>
 
@@ -110,6 +110,7 @@ function Resume() {
                 <li>Implemented compilation frameworks in Python and GNU-Make to abstract away compiler intricacies in the context of heterogeneous processing</li>
                 <li>Architected highly parallel FPGA solutions for ingesting signal data into high-speed networks</li>
                 <li>Applied machine-learning algorithms via Tensorflow to reconstruct and classify signal data</li>
+                <li>Mentored interns and managed young engineers on projects ranging from C++ image processing, Python code-generators, and FPGA development</li>
                 <li>As mentioned above, more details are available upon request.</li>
                 <br/>
               </ul>
