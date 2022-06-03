@@ -16,15 +16,15 @@ function Happies() {
           <section>
             <h2>The Happies™</h2>
             <p>
-              Yeah! Studios™ (<LarkinLink href="https://twitter.com/yeah_studios">@yeah_studios</LarkinLink>) is a fun brand created by a team dedicated to positivity! We have a long term goal of raising funds for humanitarian causes.
+              The Happies™ (<LarkinLink href="https://twitter.com/HappieFamily">HappieFamily</LarkinLink>) is a fun brand created by a team dedicated to positivity! We have a long term goal of raising funds for humanitarian causes.
               <br/><br/>
-              As the first NFT collection by Yeah! Studios™, The Happies™ were free to mint on Ethereum Mainnet. The collection of 5000 NFTs minted out in only 4 minutes!
+              The Happies™ were free to mint on Ethereum Mainnet. The collection of 5000 NFTs minted out in only 4 minutes!
               <br/><br/>
               This fun CC0 collection (all art done in MS Paint), was our happy introduction into the NFT space where we hope to continue building a meaningful community, raise money for good causes, and make a real difference in the world.
               <br/><br/>
               As the sole developer on this team, I was responsible for the mint website as well as the smart contracts.
               <br/><br/>
-              Check out the <LarkinLink href="https://yeahstudios.io">Yeah! Studios™ website</LarkinLink>, or check out The Happies™ on <LarkinLink href="https://opensea.io/collection/thehappies">Opensea</LarkinLink>.
+              Check out the <LarkinLink href="https://thehappies.io">The Happies™ website</LarkinLink>, or take a look on <LarkinLink href="https://opensea.io/collection/thehappies">Opensea</LarkinLink>.
               <br/><br/>
             </p>
             <h3>Gallery</h3>

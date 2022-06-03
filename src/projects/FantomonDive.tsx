@@ -114,7 +114,7 @@ function FantomonDive() {
 
             <h3>Battles</h3>
             <p>
-              This is the fun part and is what I am working on now as of May 2022. This is quite a challenge, especially when taking into consideration gas costs, but is proving a fun set of problems to solve. I first plan to release Player-versus-Environment gameplay where players battle the computer solo. Then I plan to release Cooperative-versus-Environment and finally Player-verus-Player gameplay.
+              This is the fun part and is what I am working on now as of May 2022. This is quite a challenge, especially when taking into consideration gas costs, but is proving a fun set of problems to solve. I first plan to release Player-versus-Environment gameplay where players battle the computer solo. Then I plan to release Cooperative-versus-Environment and finally Player-versus-Player gameplay.
               <br/><br/>
             </p>
 

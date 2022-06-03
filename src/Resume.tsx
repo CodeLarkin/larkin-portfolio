@@ -77,7 +77,7 @@ function Resume() {
 
               <h3>Experience</h3>
               <hr/>
-              For more information on each of my Web3 projects, select one via the menu on the left.
+              For more information on any of my Web3 projects, select it via the menu on the left.
               <br/><br/>
               <div>
                 <div className="resumeLine">

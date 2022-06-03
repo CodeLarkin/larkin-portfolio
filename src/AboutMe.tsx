@@ -22,19 +22,15 @@ function AboutMe() {
                 <br/><br/>
               </p>
 
-              <h3>My Philosophy</h3>
+              <h3>My Philosophy and Ramblings</h3>
               <p>
-                Time is our most valuable resource. I spend my time where my passions are and with the people I love.
+                Time is our most valuable resource. I spend my time where my passions are and with the people I love. When I find myself in a passionless rut, I make a change.
                 <br/><br/>
-                An individual's digital footprint and data belongs in his/her hands.
+                I hold myself accountable for my failures and shortcomings. It is easy to blame others for your failures, but even if others share responsibility you can only truly change yourself.
                 <br/><br/>
-                Bitcoin and decentralized Web3 economies play a critical role as opt-in alternatives to government-controlled money and economies. Empowering the individual to choose their own money holds governments accountable in their actions.
+                Everyone deserves a fighting chance in life. When society fails to give someone a chance, it fails. A properly functioning community does not choose the lives individuals live, but empowers them to live the lives they choose.
                 <br/><br/>
-                Different individuals bring unique experiences and perspectives to the table. One should never be forced to adopt someone else's worldview, culture, or opinion. Diversity enriches a team or community.
-                <br/><br/>
-                My loyalties lie with individuals.
-                <br/><br/>
-                Everyone deserves a chance.
+                Bitcoin, cryptocurrencies and Web3 empower individuals around the world by providing cross-border, censorship-resistant financial services and true ownership of one's data and digital identity. They play an important role as an opt-in alternatives to government money and the traditional financial system.
                 <br/><br/>
               </p>
 
@@ -64,7 +60,7 @@ function AboutMe() {
               <p>
                 "Larkin" are little flying crustaceans in my favorite fantasy series, <LarkinLink href="https://www.brandonsanderson.com/the-stormlight-archive-series/#THEWAYOFKINGS">"The Stormlight Archive"</LarkinLink>, by Brandon Sanderson. I feel a deep connection to this series of novels and its characters.
                 <br/><br/>
-                I cannot go into further detail about why I chose the name Larkin without risking spoilers, but I encourage you to dive into <LarkinLink href="https://www.brandonsanderson.com/">Sanderson's Cosmere</LarkinLink>.
+                I cannot go into further detail about why I chose the name "Larkin" without risking spoilers, but I encourage you to dive into <LarkinLink href="https://www.brandonsanderson.com/">Sanderson's Cosmere</LarkinLink>.
                 <br/><br/>
                 The logo at the top left of this site (desktop only) is from the series as well and symbolizes, among many things, perseverance, the power of unity, and the strength that our burdens can lend us.
                 <br/><br/>

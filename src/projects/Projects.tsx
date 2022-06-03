@@ -61,7 +61,7 @@ function Projects() {
                 <img className="projectImagePreview" src={happies} alt="Happies"/>
               </div>
               <p>
-                Free CC0 mint! All art done in MS Paint.
+                Free CC0 mint! All art created in MS Paint.
                 <br/><br/>
                 Even when markets are sad, we all deserve to be happy!
               </p>
