@@ -92,7 +92,7 @@ function Resume() {
                 <li>Constructed an elaborate React website for tracking Fantomon cards and interacting with them</li>
                 <li>Authored <LarkinLink href="https://fmons.gitbook.io">documentation</LarkinLink> and <LarkinLink href="https://fmons.gitbook.io/fantomon/lore/the-quasar-expedition">lore</LarkinLink> for the Fantomon community</li>
                 <li>Implemented custom ERC721 contracts and React mint websites for <LarkinRouterLink to="/cult">Cult NFTs</LarkinRouterLink> and <LarkinRouterLink to="/happies">The Happies™</LarkinRouterLink></li>
-                <li>Built the multi-protocol and multi-chain DeFi farming tool, the <LarkinRouterLink to="/farmgod">Farmgod Dashboard</LarkinRouterLink>, for harvesting and compounding yields from multiple protocols all at once</li>
+                <li>Built a multi-protocol and multi-chain DeFi farming tool, the <LarkinRouterLink to="/farmgod">Farmgod Dashboard</LarkinRouterLink>, for harvesting and compounding yields from multiple protocols all at once</li>
                 <li>Developed separate Typescript, Python and Rust bots for detecting arbitrage opportunities on Fantom</li>
                 <br/>
               </ul>
