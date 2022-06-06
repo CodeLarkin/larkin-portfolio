@@ -17,7 +17,7 @@ function Fantomon() {
           <section>
             <h2>Fantomon</h2>
             <p>
-              This is a passion project of mine that begun in September 2021. I work on this project with cofounder and artist <LarkinLink href="https://twitter.com/RiverBusy">Water (@RiverBusy)</LarkinLink> who had the original idea for the game.
+              This is a passion project of mine that began in September 2021. I work on this project with cofounder and artist <LarkinLink href="https://twitter.com/RiverBusy">Water (@RiverBusy)</LarkinLink> who had the original idea for the game.
               <br/><br/>
               I am the sole developer for Fantomon and am responsible for the complex ecosystem of smart contracts, as well as the elaborate retro-style React website. This is the largest Web3 project I have worked on as of May 2022.
               <br/><br/>

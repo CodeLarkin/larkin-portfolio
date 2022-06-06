@@ -16,7 +16,7 @@ function AboutMe() {
             <section>
               <h2>About Me</h2>
               <p>
-                I am an engineer with 6 years of industry experience and a passion for solving problems and learning new skills. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe gave me the confidence and drive to take the leap and build a career at this exciting frontier.
+                I am an engineer with 6 years of industry experience and a passion for solving problems and learning new skills. I spent 2021 learning to build in the Web3 space. The connections I made with individuals around the globe gave me the confidence and drive to take the leap and build a career in this exciting frontier.
                 <br/><br/>
                 Prior to 2021 I worked traditional software engineering jobs, but for years had an itching interest in cryptocurrencies. I wanted to take part in this revolution of money, data ownership, human organization, digital identity and privacy. I truly believe that Bitcoin and Web3 can improve lives around the world and I am proud to finally be a part of the change.
                 <br/><br/>
@@ -30,7 +30,7 @@ function AboutMe() {
                 <br/><br/>
                 Everyone deserves a fighting chance in life. When society fails to give someone a chance, it fails. A properly functioning community does not choose the lives individuals live, but empowers them to live the lives they choose.
                 <br/><br/>
-                Bitcoin, cryptocurrencies and Web3 empower individuals around the world by providing cross-border, censorship-resistant financial services and true ownership of one's data and digital identity. They play an important role as an opt-in alternatives to government money and the traditional financial system.
+                Bitcoin, cryptocurrencies and Web3 empower individuals around the world by providing cross-border, censorship-resistant financial services and true ownership of one's data and digital identity. They play an important role as opt-in alternatives to government money and the traditional financial system.
                 <br/><br/>
               </p>
 
