@@ -28,7 +28,7 @@ function FantomonDive() {
               <img className="galleryImage" src={fantomonHome} alt="Fantomon Homescreen"/>
             </div>
             <br/>
-            <h3>Dymically Generated Card Images</h3>
+            <h3>Dynamically Generated Card Images</h3>
             <p>
               Cards are represented by ERC721 non-fungible tokens. All card images are stored on-chain via their base64 encodings. Token URIs are formed on-chain in Solidity by generating an SVG that overlays dynamic card stats onto encoded card images.
               <div className="cards">

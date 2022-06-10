@@ -56,7 +56,7 @@ function Resume() {
               <p>
                 <u>Web3</u>
                 <ul>
-                  <li>EVM, Hardhat, Ethers JS, Ethers RS, The Graph, Chainlink VRF</li>
+                  <li>EVM, Hardhat, Ethers JS, Web3 JS, Ethers RS, Brownie, The Graph, Chainlink VRF</li>
                 </ul>
               </p>
 
